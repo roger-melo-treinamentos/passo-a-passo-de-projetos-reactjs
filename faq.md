@@ -46,7 +46,7 @@ Não. As aulas do Passo a Passo de Projetos React JS serão entregues ao vivo.
 
 Entregar o Passo a Passo ao vivo é ideal para tirar mais dúvidas dos alunos em tempo real, assim que elas forem surgindo.
 
-As gravações ficam disponíveis para quem não puder acompanhar ao vivo. 
+As gravações ficam disponíveis no portal dos alunos, para quem não puder acompanhar ao vivo. 
 
 # Por quanto tempo terei acesso?
 
