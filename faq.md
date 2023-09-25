@@ -1,5 +1,3 @@
-# FAQ pág de vendas
-
 # O que é o Passo a Passo de Projetos React JS?
 
 O Passo a Passo de Projetos React JS é um treinamento fechado com a exata metodologia pra levar você do absoluto zero até a construção de projetos com React JS.
