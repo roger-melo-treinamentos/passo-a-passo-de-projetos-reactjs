@@ -102,6 +102,24 @@ Primeiro: Fale com o seu banco antes. Caso contrário, seu cartão pode bloquear
 
 Segundo: Se você precisar, você pode pagar com múltiplos cartões de crédito. Se um único cartão não tem limite suficiente, você usa ele e mais outro cartão, caso precise.
 
+# Tem desconto?
+
+Não. 
+
+Eu busquei fazer uma oferta atrativa tanto para quem já é meu aluno quanto para quem ainda não é. Por isso, o preço da inscrição já está bem abaixo do que eu havia planejado. 
+
+Além disso essa turma tem bônus que vão me custar, e eu não sei se vou ofertá-los de graça novamente no futuro. 
+
+São eles: 
+
+1. Curso de Next JS v13
+2. 1 ano de acesso ao CJRM
+  - Incluindo:
+    - Grupo fechado dos alunos do CJRM no Telegram
+    - Suporte de dúvidas
+
+Quem já é aluno do CJRM, leva mais 1 ano de acesso ao item 2. Isto é, se você é aluno do CJRM e sua assinatura vai até, por exemplo, janeiro de 2024, ao entrar nessa turma do Passo a Passo o seu acesso aos 3 itens acima é estendido até janeiro de 2025.
+
 # O que será ensinado no Passo a Passo de Projetos React JS?
 
 Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
