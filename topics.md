@@ -2,7 +2,7 @@
 
 Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 
-## Fundamentos do React
+## 1) Fundamentos do React
 
 - Por que Frameworks Front-end existem
 - Libraries x Frameworks
@@ -110,7 +110,7 @@ Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 
 ---
 
-## Aprendendo a nadar
+## 2) Aprendendo a nadar
 
 - Projeto 3
 - Visão geral e especificações do projeto
@@ -182,7 +182,7 @@ Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 
 ---
 
-## Mergulhando no React
+## 3) Mergulhando no React
 
 - Resolução da Bateria de Desafios anterior
 - Criando um Hook personalizado para manipular adição e remoção de um evento
@@ -293,7 +293,7 @@ Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 
 ---
 
-## Bônus: Aprenda Next JS (v13)
+## 4) Bônus: Aprenda Next JS (v13)
 
 - O que é o Next JS e qual problema ele resolve
 - Quando usar ou não usar Next JS
