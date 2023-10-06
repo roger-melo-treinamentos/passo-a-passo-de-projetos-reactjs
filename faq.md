@@ -124,7 +124,7 @@ Quem já é aluno do CJRM, leva mais 1 ano de acesso ao item 2. Isto é, se voc�
 
 Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 
-Fundamentos do React
+## Fundamentos do React
 
 - Por que Frameworks Front-end existem
 - Libraries x Frameworks
@@ -213,7 +213,7 @@ Fundamentos do React
 - Construindo o form
 - Criando componentes controlados
 
-Aprendendo a nadar
+## Aprendendo a nadar
 
 - Projeto 3
 - Visão geral e especificações do projeto
@@ -269,7 +269,7 @@ Aprendendo a nadar
 - O jeito certo de criar um Hook personalizado
 - Bateria de Desafios
 
-Mergulhando no React
+## Mergulhando no React
 
 - Resolução da Bateria de Desafios anterior
 - Criando um Hook personalizado para manipular adição e remoção de um evento
@@ -356,7 +356,7 @@ Mergulhando no React
 - Fazendo deploy no Netlify
 - Fazendo deploy na Vercel
 
-Bônus: Aprenda Next JS (v13)
+## Bônus: Aprenda Next JS (v13)
 
 - O que é o Next JS e qual problema ele resolve
 - Quando usar ou não usar Next JS
