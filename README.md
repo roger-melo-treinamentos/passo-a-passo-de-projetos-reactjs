@@ -1,4 +1,4 @@
-![](assets/banner-cjrm-readme.jpg)
+![](assets/banner-pppr-readme.jpg)
 
 <h2 align="center">
   Passo a Passo de Projetos React JS
