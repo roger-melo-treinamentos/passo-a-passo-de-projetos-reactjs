@@ -80,7 +80,6 @@ Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 - Desenvolvendo a marcação estática do projeto
 - Renderizando a lista de itens
 - Construindo o form
-
 - Fundamentos do gerenciamento de estado no React
 - O jeito certo de elevar um estado
 - Como comunicar de filho pra pai do jeito certo
