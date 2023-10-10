@@ -6,7 +6,7 @@
 
 ## VSCode
 
-- [Snippets JS](snippets)
+- [Snippets](snippets)
 - [Tema de cores](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
 
 ## Extensões
