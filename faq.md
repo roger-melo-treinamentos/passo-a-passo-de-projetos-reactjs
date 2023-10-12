@@ -123,3 +123,7 @@ Quem já é aluno do CJRM, leva mais 1 ano de acesso ao item 2. Isto é, se voc�
 # O que será ensinado no Passo a Passo de Projetos React JS?
 
 Você pode ver os tópicos do curso Passo a Passo de Projetos React JS [neste link](/topics.md).
+
+# A gravação das aulas é disponibilizada imediatamente na plataforma?
+
+Não. Leva algumas horas para o Google Meet terminar de processar a gravação da aula ao vivo e disponibilizá-la. Mas assim que isso acontece, a aula é inserida na plataforma. 
