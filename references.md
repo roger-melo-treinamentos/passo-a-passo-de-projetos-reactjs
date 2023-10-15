@@ -21,3 +21,16 @@
   - [Doc do VSCode](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
   - [Meus Snippets](https://github.com/roger-melo-treinamentos/passo-a-passo-de-projetos-reactjs/blob/main/config/snippets/javascript.json)
   - [Snippet Generator](https://snippet-generator.app/)
+
+---
+
+# 4. M1#A04 - Vite e Configuração do Ambiente de Desenvolvimento
+
+- [Como instalar o WSL no Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Node JS](https://nodejs.org/en)
+- [NVM](https://github.com/nvm-sh/nvm)
+- [Vite](https://vitejs.dev/)
+- [Semantic Versioning](https://semver.org/)
+- [NPM Docs](https://docs.npmjs.com/cli/v10)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
