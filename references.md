@@ -34,3 +34,9 @@
 - [NPM Docs](https://docs.npmjs.com/cli/v10)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+---
+
+# 5. M1#A05 - ES Modules
+
+- [Importing and Exporting Components - React docs](https://react.dev/learn/importing-and-exporting-components)
