@@ -24,7 +24,7 @@
 
 ---
 
-# 4. M1#A04 - Vite e Configuração do Ambiente de Desenvolvimento
+# 3. M1#A03 - Resolução Bateria de Desafios 01 + Vite e Configuração do Ambiente
 
 - [Como instalar o WSL no Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Node JS](https://nodejs.org/en)
@@ -37,6 +37,6 @@
 
 ---
 
-# 5. M1#A05 - ES Modules
+# 4. M1#A04 - ES Modules
 
 - [Importing and Exporting Components - React docs](https://react.dev/learn/importing-and-exporting-components)
