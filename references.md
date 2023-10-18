@@ -40,3 +40,80 @@
 # 4. M1#A04 - ES Modules
 
 - [Importing and Exporting Components - React docs](https://react.dev/learn/importing-and-exporting-components)
+
+---
+
+# 5. M1#A05 - O jeito certo de renderizar listas
+
+<details>
+<br />
+<summary>CSS usado na Aula</summary>
+
+```css
+ul {
+  list-style: none;
+}
+
+.game {
+  margin-top: 50px;
+}
+
+.img-width {
+  width: 100px;
+}
+```
+</details>
+
+<details>
+<br />
+<summary>Array usado na Aula</summary>
+
+```js
+const games = [
+  {
+    id: "61sM22Dx3uL",
+    name: "Mortal Kombat 1",
+    description:
+      "Mortal Kombat 1 traz um novo mundo, criado pelo Guardião do Tempo e protetor do Plano Terreno, o Deus do Fogo Liu Kang.",
+    price: 270,
+    imgUrl: "https://m.media-amazon.com/images/I/61sM22Dx3uL._AC_SL1000_.jpg",
+  },
+  {
+    id: "610aw15JvKL",
+    name: `Assassin's Creed Mirage`,
+    description: `Em Assassin's Creed Mirage, você é Basim, um astucioso ladino de rua em busca de respostas e de justiça.`,
+    price: 257.68,
+    imgUrl: "https://m.media-amazon.com/images/I/610aw15JvKL._AC_SL1000_.jpg",
+  },
+  {
+    id: "61te8AW6zjL",
+    name: "EA Sports FC 24",
+    description: "O EA SPORTS FC 24 traz para você o Jogo de Todo Mundo.",
+    price: 263.11,
+    imgUrl: "https://m.media-amazon.com/images/I/61te8AW6zjL._AC_SL1020_.jpg",
+  },
+  {
+    id: "711nB1PK-wL",
+    name: "Super Mario Bros. Wonder",
+    description: "Encante-se com a evolução fenomenal da diversão com o Mario.",
+    price: 349,
+    imgUrl: "https://m.media-amazon.com/images/I/711nB1PK-wL._AC_SL1276_.jpg",
+  },
+  {
+    id: "81RfcW3Ml-L",
+    name: `Marvel's Spider-Man 2`,
+    description: `Peter Parker e Miles Morales retornam para uma nova e emocionante aventura na aclamada franquia de Marvel's Spider-Man.`,
+    price: 296.91,
+    imgUrl: "https://m.media-amazon.com/images/I/81RfcW3Ml-L._AC_SL1500_.jpg",
+  },
+  {
+    id: "619mg6uGj-L",
+    name: "Sonic Superstars",
+    description:
+      "Embarque numa jornada para as ilhas Northstar nessa novíssima versão clássica 2D de Sonic.",
+    price: 269,
+    imgUrl: "https://m.media-amazon.com/images/I/619mg6uGj-L._AC_SL1000_.jpg",
+  },
+]
+```
+</details>
