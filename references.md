@@ -73,8 +73,7 @@ const games = [
   {
     id: "61sM22Dx3uL",
     name: "Mortal Kombat 1",
-    description:
-      "Mortal Kombat 1 traz um novo mundo, criado pelo Guardião do Tempo e protetor do Plano Terreno, o Deus do Fogo Liu Kang.",
+    description: "Mortal Kombat 1 traz um novo mundo, criado pelo Guardião do Tempo e protetor do Plano Terreno, o Deus do Fogo Liu Kang.",
     price: 270,
     imgUrl: "https://m.media-amazon.com/images/I/61sM22Dx3uL._AC_SL1000_.jpg",
   },
@@ -109,8 +108,7 @@ const games = [
   {
     id: "619mg6uGj-L",
     name: "Sonic Superstars",
-    description:
-      "Embarque numa jornada para as ilhas Northstar nessa novíssima versão clássica 2D de Sonic.",
+    description: "Embarque numa jornada para as ilhas Northstar nessa novíssima versão clássica 2D de Sonic.",
     price: 269,
     imgUrl: "https://m.media-amazon.com/images/I/619mg6uGj-L._AC_SL1000_.jpg",
   },
