@@ -43,7 +43,7 @@
 
 ---
 
-# 5. M1#A05 - O jeito certo de renderizar listas
+# 5. M1#A05 - StrictMode e O jeito certo de renderizar listas
 
 <details>
 <br />
