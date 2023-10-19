@@ -43,7 +43,7 @@
 
 ---
 
-# 5. M1#A05 - StrictMode e O jeito certo de renderizar listas
+# 5. M1#A05 - StrictMode e O jeito certo de renderizar listas e manipular eventos
 
 <details>
 <br />
@@ -115,3 +115,10 @@ const games = [
 ]
 ```
 </details>
+
+### Listagem de eventos que podem ser usados no React
+
+- [Handling mouse events](https://react.dev/reference/react-dom/components/common#handling-mouse-events)
+- [Handling pointer events](https://react.dev/reference/react-dom/components/common#handling-pointer-events)
+- [Handling focus events](https://react.dev/reference/react-dom/components/common#handling-focus-events)
+- [Handling keyboard events](https://react.dev/reference/react-dom/components/common#handling-keyboard-events)
