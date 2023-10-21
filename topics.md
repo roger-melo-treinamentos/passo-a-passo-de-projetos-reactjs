@@ -18,6 +18,7 @@ Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
 - Opções modernas para criar um novo projeto React
 - Vite x Next JS - Qual usar
 - Configurando o ambiente de desenvolvimento
+- ES Modules
 - Strict mode e renderização do root component
 - O que é um componente React
 - Como reutilizar componentes do jeito certo
