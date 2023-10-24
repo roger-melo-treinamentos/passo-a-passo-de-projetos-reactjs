@@ -122,3 +122,42 @@ const games = [
 - [Handling pointer events](https://react.dev/reference/react-dom/components/common#handling-pointer-events)
 - [Handling focus events](https://react.dev/reference/react-dom/components/common#handling-focus-events)
 - [Handling keyboard events](https://react.dev/reference/react-dom/components/common#handling-keyboard-events)
+
+---
+
+# 7. M1#A07 - Introdução a estado no React
+
+<details>
+<br />
+<summary>JSX inicial da Aula</summary>
+
+```jsx
+const App = () => {
+  return (
+    <div>
+      <h1>Contagem: 0</h1>
+      <button>+</button>
+    </div>
+  )
+}
+
+export { App }
+```
+</details>
+
+<details>
+<br />
+<summary>CSS inicial da Aula</summary>
+
+```css
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 20%;
+}
+```
+</details>
