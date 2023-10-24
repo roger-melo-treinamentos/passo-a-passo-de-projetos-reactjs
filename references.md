@@ -132,14 +132,12 @@ const games = [
 <summary>JSX inicial da Aula</summary>
 
 ```jsx
-const App = () => {
-  return (
-    <div>
-      <h1>Contagem: 0</h1>
-      <button>+</button>
-    </div>
-  )
-}
+const App = () => (
+  <div>
+    <h1>Contagem: 0</h1>
+    <button>+</button>
+  </div>
+)
 
 export { App }
 ```
