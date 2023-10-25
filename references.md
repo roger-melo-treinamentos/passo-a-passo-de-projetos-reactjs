@@ -160,5 +160,5 @@ button {
 ```
 </details>
 
-- [State: A Component's Memory](https://react.dev/learn/state-a-components-memory#state-is-isolated-and-private)
+- [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
 - [useState](https://react.dev/reference/react/useState)
