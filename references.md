@@ -162,3 +162,9 @@ button {
 
 - [State: A Component's Memory](https://react.dev/learn/state-a-components-memory)
 - [useState](https://react.dev/reference/react/useState)
+
+---
+
+# 8. M1#A08 - Introdução a estado no React - Parte 2
+
+- [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
