@@ -168,3 +168,4 @@ button {
 # 8. M1#A08 - Introdução a estado no React - Parte 2
 
 - [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
+- [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
