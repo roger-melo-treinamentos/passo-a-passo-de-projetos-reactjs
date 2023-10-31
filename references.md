@@ -169,3 +169,55 @@ button {
 
 - [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
 - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
+
+---
+
+# 10. M1#A10 - Formulários controlados e não controlados
+
+<details>
+<br />
+<summary>JSX e CSS iniciais do exemplo onSubmit</summary>
+
+```css
+label {
+  display: block;
+  margin: 20px 0;
+}
+
+select,
+input {
+  margin-left: 5px;
+}
+```
+
+```jsx
+const App = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(e.target)
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Idade:
+        <select name="select">
+          <option value="17">17 anos</option>
+          <option value="18">18 anos</option>
+          <option value="19">19 anos</option>
+        </select>
+      </label>
+
+      <label>
+        Nome da Mãe:
+        <input placeholder="Escreve aqui" />
+      </label>
+
+      <button>Enviar</button>
+    </form>
+  )
+}
+
+export { App }
+```
+</details>
