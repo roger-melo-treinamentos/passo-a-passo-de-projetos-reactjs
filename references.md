@@ -201,7 +201,7 @@ const App = () => {
     <form onSubmit={handleSubmit}>
       <label>
         Idade:
-        <select name="select">
+        <select>
           <option value="17">17 anos</option>
           <option value="18">18 anos</option>
           <option value="19">19 anos</option>
