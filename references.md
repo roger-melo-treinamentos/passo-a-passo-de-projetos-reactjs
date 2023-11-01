@@ -222,5 +222,13 @@ export { App }
 ```
 </details>
 
-- [Imutabilidade em Objetos](https://react.dev/learn/updating-objects-in-state)
-- [Imutabilidade em Arrays](https://react.dev/learn/updating-arrays-in-state)
+- Imutabilidade
+  - [Em Objetos](https://react.dev/learn/updating-objects-in-state)
+  - [Em Arrays](https://react.dev/learn/updating-arrays-in-state)
+
+- Forms
+  - [A propriedade `elements`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements)
+  - Elementos importantes de forms no React:
+    - [input](https://react.dev/reference/react-dom/components/input)
+    - [select](https://react.dev/reference/react-dom/components/select)
+    - [option](https://react.dev/reference/react-dom/components/option)
