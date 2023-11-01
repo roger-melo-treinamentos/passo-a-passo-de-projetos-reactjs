@@ -221,3 +221,6 @@ const App = () => {
 export { App }
 ```
 </details>
+
+- [Imutabilidade em Objetos](https://react.dev/learn/updating-objects-in-state)
+- [Imutabilidade em Arrays](https://react.dev/learn/updating-arrays-in-state)
