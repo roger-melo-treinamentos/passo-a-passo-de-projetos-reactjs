@@ -234,3 +234,9 @@ export { App }
   - [input](https://react.dev/reference/react-dom/components/input)
   - [select](https://react.dev/reference/react-dom/components/select)
   - [option](https://react.dev/reference/react-dom/components/option)
+
+---
+
+# 13. M1#A13 - Resetar form, estrutura de diretórios e próximo projeto
+
+- [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
