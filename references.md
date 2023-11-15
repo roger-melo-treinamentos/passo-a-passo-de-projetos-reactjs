@@ -240,3 +240,10 @@ export { App }
 # 13. M1#A13 - Resetar form, estrutura de diretórios e próximo projeto
 
 - [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
+
+---
+
+# 16. M1#A16 - Lifecycle de um componente, Requests HTTP e hook useEffect
+
+- [Keeping Components Pure](https://react.dev/learn/keeping-components-pure)
+- [useEffect](https://react.dev/reference/react/useEffect)
