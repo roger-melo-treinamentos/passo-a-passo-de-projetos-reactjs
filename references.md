@@ -247,3 +247,16 @@ export { App }
 
 - [Keeping Components Pure](https://react.dev/learn/keeping-components-pure)
 - [useEffect](https://react.dev/reference/react/useEffect)
+
+---
+
+# 20. M2#A02 - Atualização de dependências e Primeiras implementações da Bateria 09 (Me Avalia)
+
+<details>
+<br />
+<summary>Comando para atualizar as dependências do vite-boilerplate</summary>
+
+```
+npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vitejs/plugin-react@4.2.0 eslint@8.54.0 eslint-plugin-react@7.33.2 eslint-plugin-react-refresh@0.4.4 vite@5.0.2
+```
+</details>
