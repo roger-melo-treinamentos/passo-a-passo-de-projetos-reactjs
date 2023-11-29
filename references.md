@@ -260,3 +260,9 @@ export { App }
 npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vitejs/plugin-react@4.2.0 eslint@8.54.0 eslint-plugin-react@7.33.2 eslint-plugin-react-refresh@0.4.4 vite@5.0.2
 ```
 </details>
+
+---
+
+# 22. M2#A04 - Me avalia: hooks personalizados, imagens quebradas e reposicionamento de estado
+
+- [Placeholder para imagens quebradas](assets/lessons/22/404-img.jpg)
