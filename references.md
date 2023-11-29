@@ -263,7 +263,7 @@ npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vit
 
 ---
 
-# 22. M2#A04 - Me avalia: hooks personalizados, imagens quebradas e reposicionamento de estado
+# 22. M2#A04 - Hook useRef, hooks personalizados, imagens quebradas e reposicionamento de estado
 
 - [Placeholder para imagens quebradas](assets/lessons/22/404-img.jpg)
 - [useRef](https://react.dev/reference/react/useRef)
