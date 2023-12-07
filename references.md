@@ -268,3 +268,10 @@ npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vit
 - [Placeholder para imagens quebradas](assets/lessons/22/404-img.jpg)
 - [useRef](https://react.dev/reference/react/useRef)
 - [Ref x state](https://react.dev/learn/referencing-values-with-refs#differences-between-refs-and-state)
+
+---
+
+# 26. M2#A08 - Aliases no Vite e Hook useReducer
+
+- [Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
+- [useReducer](https://react.dev/reference/react/useReducer)
