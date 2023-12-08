@@ -275,3 +275,48 @@ npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vit
 
 - [Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
 - [useReducer](https://react.dev/reference/react/useReducer)
+
+<details>
+<br />
+<summary>CSS e JSX iniciais do 1º exemplo</summary>
+
+```css
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: .8rem;
+}
+
+div {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: .4rem;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+```
+
+```jsx
+const App = () => {
+  return (
+    <div>
+      <h1>Contagem: X</h1>
+      <div className="buttons">
+        <button>-</button>
+        <button>+</button>
+        <button>Reset</button>
+      </div>
+    </div>
+  )
+}
+
+export { App }
+```
+
+</details>
