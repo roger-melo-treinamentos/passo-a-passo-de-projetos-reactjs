@@ -320,3 +320,13 @@ export { App }
 ```
 
 </details>
+
+---
+
+# 27. M2#A09 - Resolução da Bateria de Desafios 11: Hook useReducer, Feedback Visual com Loader e Identificação de estados desnecessários
+
+<details>
+<br />
+<summary>Atualização de dependências com versões exatas</summary>
+```npm i --save-dev --save-exact @types/react@18.2.43 @vitejs/plugin-react@4.2.1 eslint@8.55.0 eslint-plugin-react-refresh@0.4.5 vite@5.0.7```
+</details>
