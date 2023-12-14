@@ -323,7 +323,7 @@ export { App }
 
 ---
 
-# 27. M2#A09 - Resolução da Bateria de Desafios 11: Hook useReducer, Feedback Visual com Loader e Identificação de estados desnecessários
+# 28. M2#A10 - Atualização de Dependências do vite-boilerplate e Apresentação do Próximo Projeto
 
 <details>
 <br />
