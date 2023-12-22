@@ -334,3 +334,41 @@ npm i --save-dev --save-exact @types/react@18.2.43 @vitejs/plugin-react@4.2.1 es
 ```
 
 </details>
+
+---
+
+# 31. M2#A13 - Delay em Timer, Dependências do useEffect, Memoização e Introdução ao Hook useCallback
+
+- [useCallback](https://react.dev/reference/react/useCallback)
+
+<details>
+<br />
+<summary>Código inicial</summary>
+
+```jsx
+import { useState } from 'react'
+
+const Timer = () => {
+  const [seconds, setSeconds] = useState(150)
+
+  return (
+    <h1>
+      <span>{seconds}</span>
+    </h1>
+  )
+}
+
+const App = () => {
+  return (
+    <>
+      <h2>Um título qualquer</h2>
+      <p>Um parágrafo qualquer</p>
+      <Timer />
+    </>
+  )
+}
+
+export { App }
+```
+
+</details>
