@@ -372,3 +372,9 @@ export { App }
 ```
 
 </details>
+
+---
+
+# 32. M2#A14 - Resolução da Bateria 14: Refactoring de Hook Personalizado, Edição de Nota de Filme, Evitar Request e Consertar o delay do timer
+
+- [Regras dos Hooks](https://react.dev/warnings/invalid-hook-call-warning)
