@@ -378,3 +378,9 @@ export { App }
 # 32. M2#A14 - Resolução da Bateria 14: Refactoring de Hook Personalizado, Edição de Nota de Filme, Evitar Request e Consertar o delay do timer
 
 - [Regras dos Hooks](https://react.dev/warnings/invalid-hook-call-warning)
+
+---
+
+# 33. M2#A15 - Conceitos de SPA e Introdução ao React Router
+
+- [Doc do React Router](https://reactrouter.com)
