@@ -384,3 +384,13 @@ export { App }
 # 33. M2#A15 - Conceitos de SPA e Introdução ao React Router
 
 - [Doc do React Router](https://reactrouter.com)
+
+<details>
+<br />
+<summary>Comando para instlar o React Router de forma exata</summary>
+
+```
+npm i --save-exact react-router-dom@6.21.1
+```
+
+</details>
