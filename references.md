@@ -394,3 +394,137 @@ npm i --save-exact react-router-dom@6.21.1
 ```
 
 </details>
+
+---
+
+# 35. M2#A17 - Rotas e Layouts Aninhados no React Router
+
+<details>
+<br />
+<summary>CSS usado na aula</summary>
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: #535353;
+  --secondary: #ececec;
+}
+
+* {
+  color: #535353;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: 0;
+  padding: 12px 12px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+header nav ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: var(--primary);
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+  background: var(--primary);
+}
+
+.faq .question {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+
+form input,
+form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--primary);
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 70vh;
+}
+```
+
+</details>
