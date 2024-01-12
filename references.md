@@ -531,7 +531,7 @@ footer {
 
 ---
 
-# 38. M2#A20 - Loaders, Hook useLoaderData e Rotas Dinâmicas no React Router
+# 38. M2#A20 - React Router: Loaders, Hooks useLoaderData e useParams, e Rotas Dinâmicas
 
 <details>
 <br />
