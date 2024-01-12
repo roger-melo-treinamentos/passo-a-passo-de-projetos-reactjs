@@ -528,3 +528,65 @@ footer {
 ```
 
 </details>
+
+---
+
+# 38. M2#A20 - Loaders, Hook useLoaderData e Rotas Dinâmicas no React Router
+
+<details>
+<br />
+<summary>CSS da lista de pessoas</summary>
+
+```css
+.people a {
+  text-decoration: none;
+}
+
+.people li {
+  list-style: none;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.people li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.people h3 {
+  font-size: 1.5rem;
+}
+
+.people p {
+  margin: 0;
+}
+```
+
+</details>
+
+<details>
+<br />
+<summary>CSS do componente de detalhes da pessoa</summary>
+
+```css
+.person {
+  list-style: none;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.person h2 {
+  font-size: 2rem;
+}
+
+.person p {
+  margin: 0;
+}
+```
+
+</details>
