@@ -8,27 +8,27 @@ O Passo a Passo de Projetos React JS é um treinamento fechado com a exata metod
 
 Ao se inscrever, você leva:
 
-## Acesso sem restrição de tempo ao Passo a Passo de Projetos React JS
+### Acesso sem restrição de tempo ao Passo a Passo de Projetos React JS
 
 O treinamento fechado com a exata metodologia pra levar você do absoluto zero até a construção de projetos com React JS.
 
-## Acesso ao Curso Bônus de Next JS v14
+### Acesso ao Curso Bônus de Next JS v14
 
 Um curso focado no Framework mais popular do ecossistema React JS.
 
-## Acesso ao Curso de JavaScript Roger Melo (CJRM), ou extensão do período de acesso caso você já seja aluno
+### Acesso ao Curso de JavaScript Roger Melo (CJRM), ou extensão do período de acesso caso você já seja aluno
 
 O treinamento fechado com a metodologia pra levar você do zero até a Fluência em JavaScript. São 15 módulos com aulas, baterias de exercícios e resolução dos exercícios.
 
 Todo o treinamento está gravado. Isso significa que você vai poder estudar no seu tempo. Na hora que for melhor pra você.
 
-## Comunidade
+### Comunidade
 
 Você vai ter acesso ao grupo fechado só dos alunos do Passo a Passo e do CJRM no Telegram, onde você poderá interagir com os outros alunos, comigo e com a equipe.
 
 Você não estará sozinho na jornada. Afinal, quem quer ir longe vai acompanhado.
 
-## Suporte de dúvidas
+### Suporte de dúvidas
 
 Você terá o meu acompanhamento e o acompanhamento da minha equipe pra tirar as suas dúvidas.
 
