@@ -50,11 +50,13 @@ Pra quem paga no boleto, a opção de pagamento é apenas à vista e a compensa�
 
 # O curso está gravado?
 
-Não. As aulas do Passo a Passo de Projetos React JS estão sendo entregues ao vivo.
+As aulas do Passo a Passo de Projetos React JS são entregues ao vivo.
 
-Entregar o Passo a Passo ao vivo é ideal para tirar mais dúvidas dos alunos em tempo real, assim que elas forem surgindo.
+Entregar o Passo a Passo ao vivo é ideal para tirar mais dúvidas dos alunos em tempo real, assim que elas surgem.
 
 As gravações ficam disponíveis no portal dos alunos. 
+
+Neste momento em que escrevo, o Passo a Passo está com 51 horas de aulas gravadas e 17 Baterias de Desafios. 
 
 ---
 
