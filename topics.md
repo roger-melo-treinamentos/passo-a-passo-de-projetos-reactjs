@@ -1,6 +1,6 @@
 # O que será ensinado no Passo a Passo de Projetos React JS?
 
-Os tópicos do curso Passo a Passo de Projetos React JS são os seguintes:
+Os tópicos do Passo a Passo de Projetos React JS são os seguintes:
 
 ## 1) Fundamentos do React
 
