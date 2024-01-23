@@ -590,3 +590,17 @@ footer {
 ```
 
 </details>
+
+---
+
+# 41. M2#A23 - Integração de Mapa com a Biblioteca Leaflet e Hook useOutletContext do React Router
+
+<details>
+<br />
+<summary>Atualização de dependências com versões exatas</summary>
+
+```
+npm i --save-exact @types/react@18.2.48 @types/react-dom@18.2.18 eslint@8.56.0 vite@5.0.12 react-router-dom@6.21.3
+```
+
+</details>
