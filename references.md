@@ -604,3 +604,32 @@ npm i --save-exact @types/react@18.2.48 @types/react-dom@18.2.18 eslint@8.56.0 v
 ```
 
 </details>
+
+<details>
+<br />
+<summary>CSS inicial do componente MapLayout</summary>
+
+```css
+.map-layout .container {
+  display: flex;
+  padding: 0;
+  height: 40rem;
+  margin: 2rem 0;
+}
+
+.map-layout .sidebar {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+}
+
+.map-layout .map {
+  background-color: lightskyblue;
+  flex-basis: 56rem;
+}
+```
+
+</details>
