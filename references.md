@@ -607,7 +607,7 @@ npm i --save-exact @types/react@18.2.48 @types/react-dom@18.2.18 eslint@8.56.0 v
 
 <details>
 <br />
-<summary>CSS inicial do componente MapLayout</summary>
+<summary>CSS inicial utilizado na aula</summary>
 
 ```css
 .map-layout .container {
@@ -720,6 +720,16 @@ npm i --save-exact @types/react@18.2.48 @types/react-dom@18.2.18 eslint@8.56.0 v
     }
   }
 ]
+```
+
+</details>
+
+<details>
+<br />
+<summary>Comando de instalação da leaflet e react-leaflet de forma exata</summary>
+
+```
+npm i --save-exact leaflet@1.9.4 react-leaflet@4.2.1
 ```
 
 </details>
