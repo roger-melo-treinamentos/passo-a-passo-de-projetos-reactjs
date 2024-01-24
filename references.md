@@ -620,16 +620,106 @@ npm i --save-exact @types/react@18.2.48 @types/react-dom@18.2.18 eslint@8.56.0 v
 .map-layout .sidebar {
   display: flex;
   width: 50%;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: white;
-  width: 50%;
 }
 
 .map-layout .map {
   background-color: lightskyblue;
   flex-basis: 56rem;
 }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  border: #535353 1px solid;
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem;
+  text-decoration: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.city-details {
+  text-align: left;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.city-details p {
+  margin: 0;
+}
+```
+
+</details>
+
+<details>
+<br />
+<summary>JSON utilizado na aula</summary>
+
+```json
+[
+  {
+    "id": 73930385,
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "notes": "Enorme variedade de coisas para ver e fazer.",
+    "position": {
+      "latitude": -34.60449337161966,
+      "longitude": -58.38935696465469
+    }
+  },
+  {
+    "id": 948723984,
+    "name": "Curitiba",
+    "country": "Brasil",
+    "notes": "Cuidado com planejamento urbano, belas áreas verdes e transporte público de qualidade.",
+    "position": {
+      "latitude": -25.437370980404776,
+      "longitude": -49.27058902123733
+    }
+  },
+  {
+    "id": 827477367346724,
+    "name": "Budapeste",
+    "country": "Hungria",
+    "notes": "Uma das mais belas cidades da Europa. Arquitetura de deixar qualquer um de queixo caído.",
+    "position": {
+      "latitude": 47.49965441993388,
+      "longitude": 19.038280069820203
+    }
+  },
+  {
+    "id": 750392432,
+    "name": "Maringá",
+    "country": "Brasil",
+    "notes": "Qualidade de vida nota mil. Uma das cidades mais arborizadas e limpas do país.",
+    "position": {
+      "latitude": -23.42089821640173,
+      "longitude": -51.9332036645167
+    }
+  },
+  {
+    "id": 674854,
+    "name": "Ushuaia",
+    "country": "Argentina",
+    "notes": "Já ouviu falar do fim do mundo? Bonita, aconchegante e gelada.",
+    "position": {
+      "latitude": -54.80188821875919,
+      "longitude": -68.30280605105817
+    }
+  }
+]
 ```
 
 </details>
