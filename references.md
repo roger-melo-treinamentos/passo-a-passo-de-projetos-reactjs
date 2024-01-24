@@ -1,4 +1,4 @@
-# 1. M1#A01 - Aula inaugural
+## 1. M1#A01 - Aula inaugural
 
 - [Doc do React](https://react.dev/)
 
@@ -24,7 +24,7 @@
 
 ---
 
-# 3. M1#A03 - Resolução Bateria de Desafios 01 + Vite e Configuração do Ambiente
+## 3. M1#A03 - Resolução Bateria de Desafios 01 + Vite e Configuração do Ambiente
 
 - [Como instalar o WSL no Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Node JS](https://nodejs.org/en)
@@ -37,13 +37,13 @@
 
 ---
 
-# 4. M1#A04 - ES Modules
+## 4. M1#A04 - ES Modules
 
 - [Importing and Exporting Components - React docs](https://react.dev/learn/importing-and-exporting-components)
 
 ---
 
-# 5. M1#A05 - StrictMode e O jeito certo de renderizar listas e manipular eventos
+## 5. M1#A05 - StrictMode e O jeito certo de renderizar listas e manipular eventos
 
 <details>
 <br />
@@ -125,7 +125,7 @@ const games = [
 
 ---
 
-# 7. M1#A07 - Introdução a estado no React
+## 7. M1#A07 - Introdução a estado no React
 
 <details>
 <br />
@@ -165,14 +165,14 @@ button {
 
 ---
 
-# 8. M1#A08 - Introdução a estado no React - Parte 2
+## 8. M1#A08 - Introdução a estado no React - Parte 2
 
 - [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
 - [Sharing State Between Components](https://react.dev/learn/sharing-state-between-components)
 
 ---
 
-# 10. M1#A10 - Formulários controlados e não controlados
+## 10. M1#A10 - Formulários controlados e não controlados
 
 <details>
 <br />
@@ -237,20 +237,20 @@ export { App }
 
 ---
 
-# 13. M1#A13 - Resetar form, estrutura de diretórios e próximo projeto
+## 13. M1#A13 - Resetar form, estrutura de diretórios e próximo projeto
 
 - [Queueing a Series of State Updates](https://react.dev/learn/queueing-a-series-of-state-updates)
 
 ---
 
-# 16. M1#A16 - Lifecycle de um componente, Requests HTTP e hook useEffect
+## 16. M1#A16 - Lifecycle de um componente, Requests HTTP e hook useEffect
 
 - [Keeping Components Pure](https://react.dev/learn/keeping-components-pure)
 - [useEffect](https://react.dev/reference/react/useEffect)
 
 ---
 
-# 20. M2#A02 - Atualização de dependências e Primeiras implementações da Bateria 09 (Me Avalia)
+## 20. M2#A02 - Atualização de dependências e Primeiras implementações da Bateria 09 (Me Avalia)
 
 <details>
 <br />
@@ -263,7 +263,7 @@ npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vit
 
 ---
 
-# 22. M2#A04 - Hook useRef, hooks personalizados, imagens quebradas e reposicionamento de estado
+## 22. M2#A04 - Hook useRef, hooks personalizados, imagens quebradas e reposicionamento de estado
 
 - [Placeholder para imagens quebradas](assets/lessons/22/404-img.jpg)
 - [useRef](https://react.dev/reference/react/useRef)
@@ -271,7 +271,7 @@ npm i --save-dev --save-exact @types/react@18.2.38 @types/react-dom@18.2.17 @vit
 
 ---
 
-# 26. M2#A08 - Aliases no Vite e Hook useReducer
+## 26. M2#A08 - Aliases no Vite e Hook useReducer
 
 - [Extracting State Logic into a Reducer](https://react.dev/learn/extracting-state-logic-into-a-reducer)
 - [useReducer](https://react.dev/reference/react/useReducer)
@@ -323,7 +323,7 @@ export { App }
 
 ---
 
-# 28. M2#A10 - Atualização de Dependências do vite-boilerplate e Apresentação do Próximo Projeto
+## 28. M2#A10 - Atualização de Dependências do vite-boilerplate e Apresentação do Próximo Projeto
 
 <details>
 <br />
@@ -337,7 +337,7 @@ npm i --save-dev --save-exact @types/react@18.2.43 @vitejs/plugin-react@4.2.1 es
 
 ---
 
-# 31. M2#A13 - Delay em Timer, Dependências do useEffect, Memoização e Introdução ao Hook useCallback
+## 31. M2#A13 - Delay em Timer, Dependências do useEffect, Memoização e Introdução ao Hook useCallback
 
 - [useCallback](https://react.dev/reference/react/useCallback)
 
@@ -375,13 +375,13 @@ export { App }
 
 ---
 
-# 32. M2#A14 - Resolução da Bateria 14: Refactoring de Hook Personalizado, Edição de Nota de Filme, Evitar Request e Consertar o delay do timer
+## 32. M2#A14 - Resolução da Bateria 14: Refactoring de Hook Personalizado, Edição de Nota de Filme, Evitar Request e Consertar o delay do timer
 
 - [Regras dos Hooks](https://react.dev/warnings/invalid-hook-call-warning)
 
 ---
 
-# 33. M2#A15 - Conceitos de SPA e Introdução ao React Router
+## 33. M2#A15 - Conceitos de SPA e Introdução ao React Router
 
 - [Doc do React Router](https://reactrouter.com)
 
@@ -397,7 +397,7 @@ npm i --save-exact react-router-dom@6.21.1
 
 ---
 
-# 35. M2#A17 - Rotas e Layouts Aninhados no React Router
+## 35. M2#A17 - Rotas e Layouts Aninhados no React Router
 
 <details>
 <br />
@@ -531,7 +531,7 @@ footer {
 
 ---
 
-# 38. M2#A20 - React Router: Loaders, Hooks useLoaderData e useParams, e Rotas Dinâmicas
+## 38. M2#A20 - React Router: Loaders, Hooks useLoaderData e useParams, e Rotas Dinâmicas
 
 <details>
 <br />
@@ -593,7 +593,7 @@ footer {
 
 ---
 
-# 41. M2#A23 - Integração de Mapa com a Biblioteca Leaflet e Hook useOutletContext do React Router
+## 41. M2#A23 - Integração de Mapa com a Biblioteca Leaflet e Hook useOutletContext do React Router
 
 <details>
 <br />
