@@ -733,3 +733,308 @@ npm i --save-exact leaflet@1.9.4 react-leaflet@4.2.1
 ```
 
 </details>
+
+---
+
+## 42. M2#A24 - Nova Rota Para Form de Adição de Cidades, Estado em URLs e Interação com o Mapa
+
+<details>
+<br />
+<summary>CSS inicial utilizado na aula</summary>
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+  --primary: #535353;
+  --secondary: #ececec;
+}
+
+* {
+  color: #535353;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  border: 0;
+  padding: 12px 12px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+header nav ul {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+header nav a.active {
+  background: var(--primary);
+  color: white;
+}
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+
+.help-layout nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.help-layout nav a {
+  padding: 10px;
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.help-layout nav a:hover {
+  border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+  background: var(--primary);
+}
+
+.faq .question {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+
+form input,
+form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 300px;
+  color: var(--primary);
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label span {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 70vh;
+}
+
+.people a {
+  text-decoration: none;
+}
+
+.people li {
+  list-style: none;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.people li:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.people h3 {
+  font-size: 1.5rem;
+}
+
+.people p {
+  margin: 0;
+}
+
+.person {
+  list-style: none;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.person h2 {
+  font-size: 2rem;
+}
+
+.person p {
+  margin: 0;
+}
+
+.person button {
+  margin-top: 1rem;
+}
+
+.map-layout .container {
+  display: flex;
+  padding: 0;
+  height: 40rem;
+  margin: 2rem 0;
+}
+
+.map-layout .sidebar {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary);
+}
+
+.map-layout .map {
+  flex-basis: 56rem;
+  position: relative;
+}
+
+.map-container {
+  height: 100%;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  border: #535353 1px solid;
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem;
+  text-decoration: none;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+.city-details {
+  text-align: left;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.city-details p {
+  margin: 0;
+}
+
+.form-add-city {
+  margin-top: 0;
+  text-align: left;
+}
+
+.form-add-city input,
+.form-add-city textarea {
+  width: 95%;
+}
+
+.form-add-city label {
+  align-items: normal;
+}
+
+.form-add-city .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-add-city .buttons button:first-child {
+  border: 0;
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.form-add-city .buttons button:last-child {
+  background-color: #257eca;
+}
+
+.btn-geolocation {
+  font-weight: 700;
+  font-size: 1rem;
+  position: absolute;
+  z-index: 1000;
+  bottom: 2rem;
+  right: 1rem;
+  background-color: var(--primary);
+  color: var(--secondary);
+  box-shadow: 0 0.4rem 1.2rem rgba(36, 42, 46, 0.16);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+```
+
+</details>
+
+<details>
+<br />
+<summary>Marcação inicial do FormAddCity</summary>
+
+```jsx
+const FormAddCity = () =>
+  <form className="form-add-city">
+    <label>
+      <span>Nome da cidade</span>
+      <input />
+    </label>
+    <label>
+      <span>Quando você foi para [NOME_DA_CIDADE]?</span>
+      <input type="date" />
+    </label>
+    <label>
+      <span>Suas anotações sobre a cidade</span>
+      <textarea></textarea>
+    </label>
+    <div className="buttons">
+      <button>&larr; Voltar</button>
+      <button>Adicionar</button>
+    </div>
+  </form>
+```
+
+</details>
