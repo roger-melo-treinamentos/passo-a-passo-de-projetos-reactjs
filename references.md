@@ -1038,3 +1038,12 @@ const FormAddCity = () =>
 ```
 
 </details>
+
+---
+
+## 44. M2#A26 - Informações da Cidade Clicada no Mapa, Localização do Usuário, Objetos Request e URL
+
+### Documentação das APIs Web mostradas na Aula
+
+- [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL)
+- [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)
