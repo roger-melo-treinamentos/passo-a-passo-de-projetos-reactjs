@@ -294,7 +294,7 @@ Os tópicos do Passo a Passo de Projetos React JS são os seguintes:
 
 ---
 
-## 4) Bônus: Aprenda Next JS (v13)
+## 4) Bônus: Aprenda Next JS (v14)
 
 - O que é o Next JS e qual problema ele resolve
 - Quando usar ou não usar Next JS
@@ -311,5 +311,4 @@ Os tópicos do Passo a Passo de Projetos React JS são os seguintes:
 - Gerando static params para rotas dinâmicas
 - Lidando com erros - Error Boundaries
 - Mutação de dados
-- Estilização global
-- CSS Modules e bibliotecas de terceiros
+- Opções de estilização CSS em projetos NextJS
