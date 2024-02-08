@@ -1047,3 +1047,13 @@ const FormAddCity = () =>
 
 - [URL](https://developer.mozilla.org/en-US/docs/Web/API/URL)
 - [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)
+
+---
+
+## 48. M3#A01 - Introdução a Context API
+
+### Documentação da Context API
+
+- [Before you use context](https://react.dev/learn/passing-data-deeply-with-context#before-you-use-context)
+- [Passing Data Deeply with Context](https://react.dev/learn/passing-data-deeply-with-context)
+- [useContext](https://react.dev/reference/react/useContext)
