@@ -27,6 +27,7 @@
 ## 3. M1#A03 - Resolução Bateria de Desafios 01 + Vite e Configuração do Ambiente
 
 - [Como instalar o WSL no Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Developing in WSL](https://code.visualstudio.com/docs/remote/wsl)
 - [Node JS](https://nodejs.org/en)
 - [NVM](https://github.com/nvm-sh/nvm)
 - [Vite](https://vitejs.dev/)
