@@ -1161,3 +1161,30 @@ export { App }
 ```
 
 </details>
+
+---
+
+## 53. M3#A06 - Rotas Públicas e Privadas com React Router
+
+<details>
+<br />
+<summary>Objeto usado na aula</summary>
+
+```js
+const fakeAuthProvider = {
+  isAuthenticated: false,
+  email: null,
+  signIn: async function (email) {
+    await new Promise(resolve => setTimeout(resolve, 500))
+    this.isAuthenticated = true
+    this.email = email
+  },
+  signOut: async function () {
+    await new Promise(resolve => setTimeout(resolve, 500))
+    this.isAuthenticated = false
+    this.email = null
+  }
+}
+```
+
+</details>
