@@ -1188,3 +1188,47 @@ const fakeAuthProvider = {
 ```
 
 </details>
+
+---
+
+## 56. M3#A09 - Introdução a Memoização com Memo
+
+<details>
+<br />
+<summary>Código inicial usado na aula</summary>
+
+```css
+body {
+  background-color: #232323;
+  color: white;
+}
+
+```
+
+```jsx
+import { useState } from 'react'
+
+const List = ({ items }) =>
+  <ul>
+    {items.map(item => <li key={item}>{item}</li>)}
+  </ul>
+
+const Title = ({ text }) => <h1>{text}</h1>
+
+const App = () => {
+  const [items, setItems] = useState([])
+  const handleClick = () => setItems(prev => [...prev, `Item ${prev.length + 1}`])
+  return (
+    <>
+      <Title text="Olá" />
+      <button onClick={handleClick}>Criar item</button>
+      <List items={items} />
+    </>
+  )
+}
+
+export { App }
+
+```
+
+</details>
