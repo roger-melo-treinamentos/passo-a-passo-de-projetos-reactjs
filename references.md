@@ -1191,7 +1191,7 @@ const fakeAuthProvider = {
 
 ---
 
-## 56. M3#A09 - Introdução a Memoização com Memo
+## 56. M3#A09 - Próxima Versão do React e Memoização com Memo
 
 <details>
 <br />
