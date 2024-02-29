@@ -1271,11 +1271,11 @@ const App = () => {
     <div className="counters">
       <div>
         <h2>Contador: {counter}</h2>
-        <button onClick={incrementCounter}>Incrementar contador</button>
+        <button onClick={incrementCounter}>Incrementar</button>
       </div>
       <div>
         <h2>Outro contador: {anotherCounter}</h2>
-        <button onClick={incrementAnotherCounter}>Incrementar contador</button>
+        <button onClick={incrementAnotherCounter}>Incrementar</button>
       </div>
       <h1>Resultado: {result}</h1>
     </div>
