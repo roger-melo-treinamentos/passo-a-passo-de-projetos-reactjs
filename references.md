@@ -1232,3 +1232,57 @@ export { App }
 ```
 
 </details>
+
+---
+
+## 57. M3#A10 - O Hook useMemo e Regras do ESLint
+
+<details>
+<br />
+<summary>Código inicial para o segundo exemplo com o Hook useMemo</summary>
+
+```css
+body {
+  background-color: #232323;
+  color: white;
+}
+
+h2 {
+  margin-bottom: .5rem;
+}
+
+.counters {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+```
+
+```jsx
+import { useState } from 'react'
+
+const App = () => {
+  const [counter, setCounter] = useState(0)
+  const [anotherCounter, setAnotherCounter] = useState(0)
+  const incrementCounter = () => setCounter(prev => prev + 1)
+  const incrementAnotherCounter = () => setAnotherCounter(prev => prev + 1)
+  const result = Array.from({ length: counter + 10_000_000 }).length
+  return (
+    <div className="counters">
+      <div>
+        <h2>Contador: {counter}</h2>
+        <button onClick={incrementCounter}>Incrementar contador</button>
+      </div>
+      <div>
+        <h2>Outro contador: {anotherCounter}</h2>
+        <button onClick={incrementAnotherCounter}>Incrementar contador</button>
+      </div>
+      <h1>Resultado: {result}</h1>
+    </div>
+  )
+}
+
+export { App }
+```
+
+</details>
