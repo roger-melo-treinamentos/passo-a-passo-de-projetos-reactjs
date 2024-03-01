@@ -1286,3 +1286,53 @@ export { App }
 ```
 
 </details>
+
+<details>
+<br />
+<summary>Código inicial para o terceiro exemplo com o Hook useMemo (🟡 não execute antes de ver a aula)</summary>
+
+```css
+body {
+  background-color: #232323;
+  color: white;
+}
+```
+
+```jsx
+import { useState, useEffect } from 'react'
+
+const useFetch = options => {
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    if (options.url) {
+      fetch(options.url)
+        .then(r => r.json())
+        .then(data => setData(data))
+        .catch(error => console.log(error.message))
+    }
+  }, [options])
+
+  return { data }
+}
+
+const App = () => {
+  const [url, setUrl] = useState('')
+  const { data } = useFetch({ url })
+  const setUsersUrl = () => setUrl('https://jsonplaceholder.typicode.com/users')
+  const setCitiesUrl = () => setUrl('') // 👈🏻 sua API fake aqui
+  return (
+    <div className="app">
+      <button onClick={setUsersUrl}>Show users</button>
+      <button onClick={setCitiesUrl}>Show cities</button>
+      <ul>
+        {data.map(item => <li key={item.id}>{item.name}</li>)}
+      </ul>
+    </div>
+  )
+}
+
+export { App }
+```
+
+</details>
