@@ -1336,3 +1336,66 @@ export { App }
 ```
 
 </details>
+
+---
+
+## 59. M3#A12 - Quando Usar o Hook useCallback
+
+<details>
+<br />
+<summary>Código inicial para o segundo exemplo (contém erro de lint proposital)</summary>
+
+```css
+body {
+  background-color: #2f2f3d;
+  color: white;
+}
+
+```
+
+- main.jsx
+
+```jsx
+import { createRoot } from "react-dom/client"
+import { App } from "./app.jsx"
+import "./index.css"
+
+const rootElement = document.querySelector('[data-js="root"]')
+const root = createRoot(rootElement)
+
+root.render(<App />)
+
+```
+
+- app.jsx
+
+```jsx
+import { useEffect, useState } from 'react'
+
+const useCounter = () => {
+  const [count, setCount] = useState(0)
+  const increment = () => setCount(prev => prev + 1)
+  return { count, increment }
+}
+
+const App = () => {
+  const { count, increment } = useCounter()
+
+  useEffect(() => {
+    increment()
+  }, [])
+
+  return (
+    <>
+      <h2>{count}</h2>
+      <p>Um parágrafo qualquer</p>
+      <button onClick={increment}>Incrementar</button>
+    </>
+  )
+}
+
+export { App }
+
+```
+
+</details>
