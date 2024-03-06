@@ -1343,7 +1343,7 @@ export { App }
 
 <details>
 <br />
-<summary>Código inicial para o segundo exemplo (contém erro de lint proposital)</summary>
+<summary>Código inicial para o 1º exemplo (contém erro de lint proposital)</summary>
 
 ```css
 body {
@@ -1380,6 +1380,117 @@ const App = () => {
 
 export { App }
 
+```
+
+</details>
+
+<details>
+<br />
+<summary>Código inicial para o 2º exemplo (contém lentidão de componente proposital)</summary>
+
+```css
+label span {
+  display: block;
+  margin-top: 1rem;
+}
+
+.btn-send {
+  display: block;
+  margin-top: .5rem;
+}
+
+.padding {
+  padding: 1rem;
+}
+
+.light {
+  background-color: white;
+  color: #3a3a3a;
+}
+
+.dark {
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.count {
+  display: inline-block;
+  margin: .5rem .5rem 1rem;
+}
+```
+
+```jsx
+import { useState, memo } from 'react'
+
+const Form = memo(({ onSubmit }) => {
+  const [count, setCount] = useState(1)
+
+  const startTime = performance.now()
+  while (performance.now() - startTime < 500) {
+    // Faz nada durante 500 milisegundos, para emular um delay
+  }
+
+  const handleSubmit = e => {
+    e.preventDefault()
+    const formData = Object.fromEntries(new FormData(e.target))
+    onSubmit({ count, ...formData })
+  }
+
+  const increment = () => setCount(count + 1)
+  const decrement = () => setCount(count - 1)
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        <span>Quantidade:</span>
+        <button type="button" onClick={decrement}>-</button>
+        <span className="count">{count}</span>
+        <button type="button" onClick={increment}>+</button>
+      </label>
+      <label>
+        <span>Rua:</span>
+        <input name="street" />
+      </label>
+      <label>
+        <span>Cidade:</span>
+        <input name="city" />
+      </label>
+      <label>
+        <span>CEP:</span>
+        <input name="zipCode" />
+      </label>
+      <button type="submit" className="btn-send">Enviar</button>
+    </form>
+  )
+})
+
+const ProductPage = ({ productId, referrerId, theme }) => {
+  const handleSubmit = orderDetails => post(`/product/${productId}/buy`, { referrerId, orderDetails })
+  return (
+    <div className={`${theme} padding`}>
+      <Form onSubmit={handleSubmit} />
+    </div>
+  )
+}
+
+const post = (url, data) => console.log({ url: `POST ${url}`, data })
+
+const App = () => {
+  const [isDark, setIsDark] = useState(false)
+  const toggleDarkMode = e => setIsDark(e.target.checked)
+  return (
+    <>
+      <label>
+        <input type="checkbox" checked={isDark} onChange={toggleDarkMode} />
+        Tema escuro
+      </label>
+      <hr />
+      <ProductPage referrerId="wizard_of_oz" productId={123} theme={isDark ? 'dark' : 'light'} />
+    </>
+  )
+}
+
+export { App }
 ```
 
 </details>
