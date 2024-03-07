@@ -1339,7 +1339,7 @@ export { App }
 
 ---
 
-## 59. M3#A12 - Quando Usar o Hook useCallback
+## 59. M3#A12 - Quando Usar o Hook useCallback e Introdução a Otimização do Tamanho do Bundle com Code Splitting
 
 <details>
 <br />
