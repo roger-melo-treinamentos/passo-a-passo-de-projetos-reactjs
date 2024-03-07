@@ -1494,3 +1494,9 @@ export { App }
 ```
 
 </details>
+
+---
+
+## 60. M3#A13 - Otimização do Tamanho do Bundle com Code Splitting - Parte 2
+
+- [Repositório inicial para esta aula](https://github.com/Roger-Melo/react-code-splitting)
