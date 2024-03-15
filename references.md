@@ -1500,3 +1500,37 @@ export { App }
 ## 60. M3#A13 - Otimização do Tamanho do Bundle com Code Splitting - Parte 2
 
 - [Repositório inicial para esta aula](https://github.com/Roger-Melo/react-code-splitting)
+
+---
+
+## 62. M3#A15 - Introdução a React Query
+
+<details>
+<br />
+<summary>Código inicial para o 1º exemplo</summary>
+
+```jsx
+import { useEffect, useState } from 'react'
+
+const url = 'https://www.random.org/integers/?num=1&min=1&max=100&col=5&base=10&format=plain&rnd=new'
+
+const RandomNumber = () => {
+  const [randomNumber, setRandomNumber] = useState(null)
+
+  useEffect(() => {
+    fetch(url)
+      .then(response => response.json())
+      .then(number => setRandomNumber(number))
+      .catch(error => alert(`Error message: ${error.message}`))
+  }, [])
+
+  return <h2>Número aleatório: {randomNumber}</h2>
+}
+
+const App = () => <RandomNumber />
+
+export { App }
+
+```
+
+</details>
