@@ -1509,26 +1509,6 @@ export { App }
 
 <details>
 <br />
-<summary>Comando para instalar React Query e o Plugin do ESLint, de forma exata</summary>
-
-```
-npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.27.7
-```
-
-</details>
-
-<details>
-<br />
-<summary>Inserção do plugin nas extensões do `.eslintrc.cjs`</summary>
-
-```
-"plugin:@tanstack/eslint-plugin-query/recommended"
-```
-
-</details>
-
-<details>
-<br />
 <summary>Código inicial para o 1º exemplo</summary>
 
 ```jsx
@@ -1553,6 +1533,26 @@ const App = () => <RandomNumber />
 
 export { App }
 
+```
+
+</details>
+
+<details>
+<br />
+<summary>Comando para instalar React Query e o Plugin do ESLint, de forma exata</summary>
+
+```
+npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.27.7
+```
+
+</details>
+
+<details>
+<br />
+<summary>Inserção do plugin nas extensões do `.eslintrc.cjs`</summary>
+
+```
+"plugin:@tanstack/eslint-plugin-query/recommended"
 ```
 
 </details>
