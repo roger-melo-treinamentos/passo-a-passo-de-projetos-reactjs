@@ -1549,7 +1549,7 @@ npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.
 
 <details>
 <br />
-<summary>Inserção do plugin nas extensões do `.eslintrc.cjs`</summary>
+<summary>Inserção do plugin nas extensões do .eslintrc.cjs</summary>
 
 ```
 "plugin:@tanstack/eslint-plugin-query/recommended"
