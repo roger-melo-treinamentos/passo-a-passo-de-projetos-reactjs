@@ -388,7 +388,7 @@ export { App }
 
 <details>
 <br />
-<summary>Comando para instlar o React Router de forma exata</summary>
+<summary>Comando para instalar o React Router de forma exata</summary>
 
 ```
 npm i --save-exact react-router-dom@6.21.1
@@ -1503,7 +1503,29 @@ export { App }
 
 ---
 
-## 62. M3#A15 - Introdução a React Query
+## 62. M3#A15 - Introdução a React Query (TanStack Query): O Que É, Por que Usar e Correlação com React Router
+
+- [Doc do React Query](https://tanstack.com/query/latest/docs/framework/react/overview)
+
+<details>
+<br />
+<summary>Comando para instalar React Query e o Plugin do ESLint, de forma exata</summary>
+
+```
+npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.27.7
+```
+
+</details>
+
+<details>
+<br />
+<summary>Inserção do plugin nas extensões do `.eslintrc.cjs`</summary>
+
+```
+"plugin:@tanstack/eslint-plugin-query/recommended"
+```
+
+</details>
 
 <details>
 <br />
