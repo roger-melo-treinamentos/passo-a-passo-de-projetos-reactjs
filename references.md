@@ -1556,3 +1556,19 @@ npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.
 ```
 
 </details>
+
+---
+
+## 64. M3#A17 - Fazendo Requests com React Query
+
+- [Doc da API do GitHub](https://docs.github.com/en/rest)
+
+<details>
+<br />
+<summary>Endpoint do primeiro request</summary>
+
+```javascript
+`https://api.github.com/users/${username}`
+```
+
+</details>
