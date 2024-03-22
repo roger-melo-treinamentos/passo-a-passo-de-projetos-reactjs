@@ -1572,3 +1572,106 @@ npm i --save-exact @tanstack/react-query@5.28.4 @tanstack/eslint-plugin-query@5.
 ```
 
 </details>
+
+<details>
+<br />
+<summary>Exemplo para o 2º request</summary>
+
+```css
+ul {
+  list-style: none;
+}
+
+.issuesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.issuesList li {
+  border: .1rem solid lightgrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 50%;
+}
+
+.createdBy {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.createdBy img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.labels span {
+  display: inline-block;
+  padding: .3rem 0.7rem;
+  border-radius: 0.4rem;
+  margin-right: .3rem;
+}
+
+```
+
+```javascript
+const fetchIssues = ({ organization, repository }) =>
+  fetch(`https://api.github.com/repos/${organization}/${repository}/issues`)
+    .then(res => res.json())
+    .then(data => {
+      return data.map(issue => ({
+        id: issue.id,
+        state: issue.state,
+        title: issue.title,
+        createdAt: issue.created_at,
+        author: { name: issue.user.login, avatar: issue.user.avatar_url },
+        labels: issue.labels.map(label => ({ id: label.id, color: label.color, name: label.name })),
+        url: issue.html_url
+      }))
+    })
+
+const getFormattedDate = date => {
+  const [year, month, day] = date.split('T')[0].split('-')
+  return `${day}/${month}/${year}`
+}
+
+const IssueItem = ({ state, title, createdAt, labels, author, url }) =>
+  <li>
+    <span>{state}</span>
+    <h3>
+      <a href={url} target="_blank" rel="noreferrer">{title}</a>
+    </h3>
+    <div className="createdBy">
+      <p>Criada em {getFormattedDate(createdAt)}, por {author.name}</p>
+      <img src={author.avatar} alt={`Foto de ${author.name}`} />
+    </div>
+    {labels.length > 0 && (
+      <p className="labels">Labels: {labels.map(({ id, color, name }) =>
+        <span key={id} style={{ backgroundColor: `#${color}` }}>{name}</span>)}
+      </p>
+    )}
+  </li>
+
+const IssuesList = () => {
+  // 🦜 seu request aqui
+
+  return isError
+    ? <p>{error.message}</p>
+    : isLoading
+      ? <p>Carregando informações...</p>
+      : <ul className="issuesList">{data.map(issue => <IssueItem key={issue.id} {...issue} />)}</ul>
+}
+
+const App = () =>
+  <>
+    <h1>Vagas</h1>
+    <IssuesList />
+  </>
+
+export { App }
+
+```
+
+</details>
