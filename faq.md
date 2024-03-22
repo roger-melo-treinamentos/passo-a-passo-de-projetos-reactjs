@@ -1,10 +1,10 @@
-# O que é o Passo a Passo de Projetos React JS?
+## O que é o Passo a Passo de Projetos React JS?
 
 O Passo a Passo de Projetos React JS é o treinamento fechado com a exata metodologia pra levar você do absoluto zero até a construção de projetos com React JS, a biblioteca mais demandada do ecossistema JavaScript.
 
 ---
 
-# O que a inscrição no Passo a Passo inclui?
+## O que a inscrição no Passo a Passo inclui?
 
 Ao se inscrever, você leva:
 
@@ -36,7 +36,7 @@ As dúvidas são respondidas em até 1 dia útil.
 
 ---
 
-# Como terei acesso ao Passo a Passo e ao CJRM?
+## Como terei acesso ao Passo a Passo e ao CJRM?
 
 O Passo a Passo de Projetos React JS é entregue em aulas ao vivo, às segundas, quartas e sextas-feiras, às 20h (horário de Brasília) + Baterias de Desafios aos domingos ao meio-dia. 
 
@@ -48,7 +48,7 @@ Pra quem paga no boleto, a opção de pagamento é apenas à vista e a compensa�
 
 ---
 
-# O curso está gravado?
+## O curso está gravado?
 
 As aulas do Passo a Passo de Projetos React JS são entregues ao vivo.
 
@@ -60,7 +60,7 @@ Neste momento em que escrevo, o Passo a Passo está com 51 horas de aulas gravad
 
 ---
 
-# Por quanto tempo terei acesso?
+## Por quanto tempo terei acesso?
 
 Para quem entrar nesta turma de jan/2024, NÃO HÁ RESTRIÇÃO de tempo de acesso para:
 
@@ -79,7 +79,7 @@ Quem já é aluno do CJRM, leva mais 1 ano de acesso aos 3 itens acima. Isto é,
 
 ---
 
-# Para quem o Passo a Passo de Projetos React JS não é indicado?
+## Para quem o Passo a Passo de Projetos React JS não é indicado?
 
 O Passo a Passo de Projetos React JS não é indicado para quem: 
 
@@ -92,7 +92,7 @@ Ou seja, ao se inscrever nesta turma de jan/2024, além de não ter restrição 
 
 ---
 
-# Por que o Passo a Passo de Projetos React JS é diferente dos outros cursos do mercado?
+## Por que o Passo a Passo de Projetos React JS é diferente dos outros cursos do mercado?
 
 O Passo a Passo consiste em uma metodologia chamada ATER, em que o aluno executa ciclos de Aula, Teoria, Exercícios e Resolução para cada assunto apresentado. 
 
@@ -100,13 +100,13 @@ Essa estratégia acelera o aprendizado de construção de projetos com React JS,
 
 ---
 
-# Terei apoio em caso de dúvidas ou dificuldades?
+## Terei apoio em caso de dúvidas ou dificuldades?
 
 Sim. As dúvidas são respondidas por mim, pela comunidade ou pela equipe em, no máximo, 1 dia útil. Você pode deixar suas dúvidas no grupo só dos alunos no Telegram. 
 
 ---
 
-# É possível parcelar no boleto?
+## É possível parcelar no boleto?
 
 Pra quem paga no boleto, a opção de pagamento é apenas à vista. 
 
@@ -126,7 +126,7 @@ Segundo: Se você precisar, você pode pagar com múltiplos cartões de crédito
 
 ---
 
-# Tem desconto?
+## Tem desconto?
 
 Não. 
 
@@ -146,12 +146,12 @@ Quem já é aluno do CJRM, leva mais 1 ano de acesso ao item 2. Isto é, se voc�
 
 ---
 
-# O que é ensinado no Passo a Passo de Projetos React JS?
+## O que é ensinado no Passo a Passo de Projetos React JS?
 
 Você pode ver os tópicos do Passo a Passo de Projetos React JS [neste link](/topics.md).
 
 ---
 
-# A gravação das aulas é disponibilizada imediatamente na plataforma?
+## A gravação das aulas é disponibilizada imediatamente na plataforma?
 
 Não. Leva algumas horas para o Google Meet terminar de processar a gravação da aula ao vivo e disponibilizá-la. Assim que isso acontece, a aula é inserida na plataforma. 
