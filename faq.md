@@ -155,3 +155,15 @@ Você pode ver os tópicos do Passo a Passo de Projetos React JS [neste link](/t
 ## A gravação das aulas é disponibilizada imediatamente na plataforma?
 
 Não. Leva algumas horas para o Google Meet terminar de processar a gravação da aula ao vivo e disponibilizá-la. Assim que isso acontece, a aula é inserida na plataforma. 
+
+---
+
+## Quais são os projetos do Passo a Passo?
+
+Segue os links dos projetos em produção:
+
+- [Guarda Coisas](https://guarda-coisas-espaco-mulher.netlify.app/)
+- [Racha Conta](https://racha-conta.netlify.app/)
+- [Me Avalia](https://me-avalia.netlify.app/)
+- [Quiz dos Videogames](https://quiz-dos-videogames.netlify.app/)
+- [Viajou Anotou](https://viajou-anotou.netlify.app/)
