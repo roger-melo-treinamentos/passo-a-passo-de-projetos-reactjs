@@ -1655,7 +1655,8 @@ const IssueItem = ({ state, title, createdAt, labels, author, url }) =>
   </li>
 
 const IssuesList = () => {
-  // 🦜 sua implementação aqui
+  // 🦜 sua implementação aqui. 
+  // Dica: você pode passar 'frontendbr' como organization e 'vagas' como repository
 
   return isError
     ? <p>{error.message}</p>
