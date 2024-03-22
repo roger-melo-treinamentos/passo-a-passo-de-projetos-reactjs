@@ -1655,7 +1655,7 @@ const IssueItem = ({ state, title, createdAt, labels, author, url }) =>
   </li>
 
 const IssuesList = () => {
-  // 🦜 seu request aqui
+  // 🦜 sua implementação aqui
 
   return isError
     ? <p>{error.message}</p>
