@@ -1661,14 +1661,15 @@ const IssuesList = () => {
     ? <p>{error.message}</p>
     : isLoading
       ? <p>Carregando informações...</p>
-      : <ul className="issuesList">{data.map(issue => <IssueItem key={issue.id} {...issue} />)}</ul>
+      : (
+        <>
+          <h1>Vagas</h1>
+          <ul className="issuesList">{data.map(issue => <IssueItem key={issue.id} {...issue} />)}</ul>
+        </>
+      )
 }
 
-const App = () =>
-  <>
-    <h1>Vagas</h1>
-    <IssuesList />
-  </>
+const App = () => <IssuesList />
 
 export { App }
 
