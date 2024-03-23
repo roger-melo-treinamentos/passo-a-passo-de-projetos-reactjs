@@ -165,28 +165,20 @@ Não. Leva algumas horas para o Google Meet terminar de processar a gravação d
 [Em produção](https://guarda-coisas-espaco-mulher.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/guarda-coisas-espaco-mulher)
 
-<br />
-
 ### Racha Conta
 
 [Em produção](https://racha-conta.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/racha-conta)
-
-<br />
 
 ### Me Avalia
 
 [Em produção](https://me-avalia.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/me-avalia)
 
-<br />
-
 ### Quiz dos Videogames
 
 [Em produção](https://quiz-dos-videogames.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/quiz-dos-videogames)
-
-<br />
 
 ### Viajou Anotou
 
