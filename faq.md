@@ -160,10 +160,35 @@ Não. Leva algumas horas para o Google Meet terminar de processar a gravação d
 
 ## Quais são os projetos do Passo a Passo?
 
-Segue os links dos projetos em produção:
+### Guarda Coisas
 
-- [Guarda Coisas](https://guarda-coisas-espaco-mulher.netlify.app/)
-- [Racha Conta](https://racha-conta.netlify.app/)
-- [Me Avalia](https://me-avalia.netlify.app/)
-- [Quiz dos Videogames](https://quiz-dos-videogames.netlify.app/)
-- [Viajou Anotou](https://viajou-anotou.netlify.app/)
+[Em produção](https://guarda-coisas-espaco-mulher.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/guarda-coisas-espaco-mulher)
+
+<br />
+
+### Racha Conta
+
+[Em produção](https://racha-conta.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/racha-conta)
+
+<br />
+
+### Me Avalia
+
+[Em produção](https://me-avalia.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/me-avalia)
+
+<br />
+
+### Quiz dos Videogames
+
+[Em produção](https://quiz-dos-videogames.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/quiz-dos-videogames)
+
+<br />
+
+### Viajou Anotou
+
+[Em produção](https://viajou-anotou.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/viajou-anotou)
