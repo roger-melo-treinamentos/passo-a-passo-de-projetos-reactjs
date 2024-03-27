@@ -1677,3 +1677,85 @@ export { App }
 ```
 
 </details>
+
+---
+
+## 66. M3#A19 - Filtrando Vagas do Front-End BR Através das Labels
+
+<details>
+<br />
+<summary>CSS inicial</summary>
+
+```css
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+.app {
+  display: flex;
+  gap: 1rem;
+  max-width: 80rem;
+  margin: auto;
+  padding-top: 2rem;
+}
+
+.issuesListContainer {
+  width: 50rem;
+}
+
+.issuesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.issuesList li {
+  border: .1rem solid lightgrey;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.createdBy {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.createdBy img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.label {
+  padding: .3rem 0.7rem;
+  border-radius: 0.4rem;
+  margin-right: .3rem;
+  border-width: 0;
+}
+
+.label:hover {
+  cursor: pointer;
+}
+
+.labelsListContainer {
+  width: 28rem;
+}
+
+.labelsList .label {
+  margin-bottom: .4rem;
+}
+
+.labelsList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activeLabel {
+  filter: opacity(.3);
+}
+
+```
+
+</details>
