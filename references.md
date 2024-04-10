@@ -1767,3 +1767,4 @@ ul {
 - [QueryClient](https://tanstack.com/query/latest/docs/reference/QueryClient)
 - [Query Function Variables](https://tanstack.com/query/latest/docs/framework/react/guides/query-functions#query-function-variables)
 - [Search by label](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-label)
+- [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL_API)
