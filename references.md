@@ -1762,7 +1762,7 @@ ul {
 
 ---
 
-## 71. M3#A24 - Eliminação de Repetição em Queries e Redundância ao Passar Argumentos
+## 71. M3#A24 - Eliminação de Repetição em Queries, Redundância em Argumentos e Bug Fix ao Filtrar Vagas por Labels
 
 - [QueryClient](https://tanstack.com/query/latest/docs/reference/QueryClient)
 - [Query Function Variables](https://tanstack.com/query/latest/docs/framework/react/guides/query-functions#query-function-variables)
