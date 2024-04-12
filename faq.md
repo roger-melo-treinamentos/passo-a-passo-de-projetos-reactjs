@@ -184,3 +184,10 @@ Não. Leva algumas horas para o Google Meet terminar de processar a gravação d
 
 [Em produção](https://viajou-anotou.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/viajou-anotou)
+
+### Projetos experimentais secundários (🚧 lista em construção)
+
+#### React Router Protected Routes Demo
+
+[Em produção](https://react-router-protected-routes-demo.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/react-router-protected-routes-demo)
