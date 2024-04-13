@@ -191,3 +191,8 @@ Não. Leva algumas horas para o Google Meet terminar de processar a gravação d
 
 [Em produção](https://react-router-protected-routes-demo.netlify.app/) |
 [Repositório](https://github.com/Roger-Melo/react-router-protected-routes-demo)
+
+#### Testing React Query
+
+[Em produção](https://testing-react-query.netlify.app/) |
+[Repositório](https://github.com/Roger-Melo/testing-react-query)
