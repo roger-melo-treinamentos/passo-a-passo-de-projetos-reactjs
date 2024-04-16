@@ -1768,3 +1768,40 @@ ul {
 - [Query Function Variables](https://tanstack.com/query/latest/docs/framework/react/guides/query-functions#query-function-variables)
 - [Search by label](https://docs.github.com/en/search-github/searching-on-github/searching-issues-and-pull-requests#search-by-label)
 - [URL API](https://developer.mozilla.org/en-US/docs/Web/API/URL_API)
+
+---
+
+## 74. M3#A27 - Error Boundaries
+
+- [Catching rendering errors with an error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
+
+<details>
+<br />
+<summary>JSX inicial</summary>
+
+```jsx
+import { useState } from 'react'
+
+const App = () => {
+  const [movies, setMovies] = useState([])
+
+  const fetchMovies = () => {
+    fetch(/* seu endpoint aqui */)
+      .then(res => res.json())
+      .then(data => setMovies(data))
+  }
+
+  return (
+    <>
+      <button onClick={fetchMovies}>Buscar filmes</button>
+      <ul>
+        {movies.map(movie => <li key={movie.imdbID}>{movie.Title}</li>)}
+      </ul>
+    </>
+  )
+}
+
+export { App }
+```
+
+</details>
