@@ -1774,6 +1774,7 @@ ul {
 ## 74. M3#A27 - Error Boundaries
 
 - [Catching rendering errors with an error boundary](https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary)
+- [react-error-boundary](https://github.com/bvaughn/react-error-boundary)
 
 <details>
 <br />
