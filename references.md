@@ -1782,6 +1782,11 @@ ul {
 ```jsx
 import { useState } from 'react'
 
+const Movies = ({ movies }) =>
+  <ul>
+    {movies.map(movie => <li key={movie.imdbID}>{movie.Title}</li>)}
+  </ul>
+
 const App = () => {
   const [movies, setMovies] = useState([])
 
@@ -1794,9 +1799,7 @@ const App = () => {
   return (
     <>
       <button onClick={fetchMovies}>Buscar filmes</button>
-      <ul>
-        {movies.map(movie => <li key={movie.imdbID}>{movie.Title}</li>)}
-      </ul>
+      <Movies movies={movies} />
     </>
   )
 }
