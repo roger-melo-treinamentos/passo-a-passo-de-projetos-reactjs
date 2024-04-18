@@ -1,3 +1,7 @@
+## Passo a Passo de Projetos React JS
+
+---
+
 ## 1. M1#A01 - Aula inaugural
 
 - [Doc do React](https://react.dev/)
@@ -1810,3 +1814,11 @@ export { App }
 ```
 
 </details>
+
+---
+
+## Bônus: Aprenda Next.js
+
+## 1. O que é o Next.js e por que usá-lo
+
+- [Next.js Docs](https://nextjs.org/docs)
