@@ -1819,6 +1819,15 @@ export { App }
 
 ## Bônus: Aprenda Next.js
 
-## 1. O que é o Next.js e por que usá-lo
+## 1. O que é o Next.js, por que usá-lo, instalação e configurações iniciais, App Router x Pages Router
 
 - [Next.js Docs](https://nextjs.org/docs)
+
+### Versões exatas usadas na aula
+
+| Dependency / DevDependency | Second Header |
+| :---: | :---: |
+| create-next-app | 14.2.2 |
+| react | 18.2.0 |
+| react-dom | 18.2.0 |
+| eslint | 8.57.0 |
