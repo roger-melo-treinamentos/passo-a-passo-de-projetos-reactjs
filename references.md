@@ -1831,3 +1831,9 @@ export { App }
 | react | 18.2.0 |
 | react-dom | 18.2.0 |
 | eslint | 8.57.0 |
+
+---
+
+## 4. 🚧 Título em construção
+
+- [Rendering](https://nextjs.org/docs/app/building-your-application/rendering)
