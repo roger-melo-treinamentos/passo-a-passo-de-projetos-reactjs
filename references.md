@@ -1834,6 +1834,7 @@ export { App }
 
 ---
 
-## 4. 🚧 Título em construção
+## 4. Fundamentos de renderização, 6 passos do request-response lifecycle e prerendering
 
 - [Rendering](https://nextjs.org/docs/app/building-your-application/rendering)
+- [How Google Search indexes JavaScript sites - JavaScript SEO](https://youtu.be/LXF8bM4g-J4?si=PcFtVJysvdUv_wC3)
