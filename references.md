@@ -1838,3 +1838,9 @@ export { App }
 
 - [Rendering](https://nextjs.org/docs/app/building-your-application/rendering)
 - [How Google Search indexes JavaScript sites - JavaScript SEO](https://youtu.be/LXF8bM4g-J4?si=PcFtVJysvdUv_wC3)
+
+---
+
+## 5. Resolução Bateria 31: React server components, client components, dev x production server e links de navegação
+
+- [Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
