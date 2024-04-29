@@ -1844,3 +1844,5 @@ export { App }
 ## 5. Resolução Bateria 31: React server components, client components, dev x production server e links de navegação
 
 - [Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
+- [When to use Server and Client Components](https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns)
+- [Linking and Navigating](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating)
