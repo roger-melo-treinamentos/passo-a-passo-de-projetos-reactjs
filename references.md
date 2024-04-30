@@ -1846,3 +1846,9 @@ export { App }
 - [Introducing Zero-Bundle-Size React Server Components](https://react.dev/blog/2020/12/21/data-fetching-with-react-server-components)
 - [When to use Server and Client Components](https://nextjs.org/docs/app/building-your-application/rendering/composition-patterns)
 - [Linking and Navigating](https://nextjs.org/docs/app/building-your-application/routing/linking-and-navigating)
+
+---
+
+## 6. 🚧 Título em construção
+
+- [Imagens desafio 2](assets/lessons/bonus-next-js/06)
