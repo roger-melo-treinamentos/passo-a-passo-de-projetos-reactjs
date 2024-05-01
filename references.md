@@ -1825,7 +1825,7 @@ export { App }
 
 ### Versões exatas usadas na aula
 
-| Dependency / DevDependency | Second Header |
+| Dependency / DevDependency | Version |
 | :---: | :---: |
 | create-next-app | 14.2.2 |
 | react | 18.2.0 |
@@ -1849,6 +1849,59 @@ export { App }
 
 ---
 
-## 6. 🚧 Título em construção
+## 6. Client-side navigation, tamanho de um React Server Component, visualizando partial rendering e estilização no Next
 
 - [Imagens desafio 2](assets/lessons/bonus-next-js/06)
+
+### Versões exatas usadas na aula
+
+| Dependency / DevDependency | Version |
+| :---: | :---: |
+| tailwindcss | 3.4.3 |
+| postcss | 8.4.38 |
+| autoprefixer | 10.4.19 |
+
+<details>
+<br />
+<summary>RootLayout estilizado</summary>
+
+```jsx
+import Link from 'next/link'
+import './globals.css'
+
+const RootLayout = ({ children }) => {
+  return (
+    <html lang="pt-BR">
+      <body className="bg-slate-800 text-slate-200 flex flex-col px-6 py-2 min-h-screen">
+        <header>
+          <nav className="flex justify-between border-b border-b-slate-600 pb-4 pt-2">
+            <h2>Análises de Jogos</h2>
+            <ul className="flex gap-4">
+              <li>
+                <Link href="/" className="hover:text-sky-500">Início</Link>
+              </li>
+              <li>
+                <Link href="/sobre" prefetch={false} className="hover:text-sky-500">Sobre</Link>
+              </li>
+              <li>
+                <Link href="/analises" className="hover:text-sky-500">Análises</Link>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <main className="grow py-3">
+          {children}
+        </main>
+        <footer className="border-t border-t-slate-600 py-3 text-center text-xs">
+          Informações e imagens dos jogos gentilmente cedidos por{' '}
+          <a href="https://rawg.io/" target="_blank" className="hover:text-sky-500">RAWG</a>
+        </footer>
+      </body>
+    </html>
+  )
+}
+
+export default RootLayout
+```
+
+</details>
