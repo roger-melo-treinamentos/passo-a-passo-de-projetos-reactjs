@@ -1911,6 +1911,7 @@ export default RootLayout
 ## 7. 🚧 Título em andamento
 
 - [Imagens usadas](assets/lessons/bonus-next-js/07)
+- [alt attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attributes)
 - [Static Assets](https://nextjs.org/docs/app/building-your-application/optimizing/static-assets)
 - [Image Optimization](https://nextjs.org/docs/app/building-your-application/optimizing/images)
 - [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp)
