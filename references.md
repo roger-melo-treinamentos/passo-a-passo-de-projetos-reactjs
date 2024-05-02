@@ -1910,7 +1910,13 @@ export default RootLayout
 
 ## 7. 🚧 Título em andamento
 
-- [Imagens usadas](assets/lessons/bonus-next-js/07)
+### Imagens
+
+- [Imagens dos Jogos](assets/lessons/bonus-next-js/07/game-images)
+- [Screenshot dos Desafios](assets/lessons/bonus-next-js/07/challenge-screenshot-images)
+
+### Referências
+
 - [alt attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attributes)
 - [Static Assets](https://nextjs.org/docs/app/building-your-application/optimizing/static-assets)
 - [Image Optimization](https://nextjs.org/docs/app/building-your-application/optimizing/images)
