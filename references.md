@@ -1905,3 +1905,9 @@ export default RootLayout
 ```
 
 </details>
+
+---
+
+## 7. 🚧 Título em andamento
+
+- [Imagens](assets/lessons/bonus-next-js/07)
