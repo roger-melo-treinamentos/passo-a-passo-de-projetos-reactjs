@@ -1910,4 +1910,5 @@ export default RootLayout
 
 ## 7. 🚧 Título em andamento
 
-- [Imagens](assets/lessons/bonus-next-js/07)
+- [Imagens usadas](assets/lessons/bonus-next-js/07)
+- [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp)
