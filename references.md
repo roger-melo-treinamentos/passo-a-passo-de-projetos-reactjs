@@ -1908,12 +1908,12 @@ export default RootLayout
 
 ---
 
-## 7. 🚧 Título em andamento
+## 7. Static assets, Layout shift e Otimização de imagens com o componente Image
 
 ### Imagens
 
 - [Imagens dos Jogos](assets/lessons/bonus-next-js/07/game-images)
-- [Screenshot dos Desafios](assets/lessons/bonus-next-js/07/challenge-screenshot-images)
+- [Screenshot do Desafio](assets/lessons/bonus-next-js/07/challenge-screenshot-images)
 
 ### Referências
 
@@ -1921,3 +1921,7 @@ export default RootLayout
 - [Static Assets](https://nextjs.org/docs/app/building-your-application/optimizing/static-assets)
 - [Image Optimization](https://nextjs.org/docs/app/building-your-application/optimizing/images)
 - [Largest Contentful Paint (LCP)](https://web.dev/articles/lcp)
+- [Images without dimensions](https://web.dev/articles/optimize-cls#images-without-dimensions)
+- [Intrinsic size](https://developer.mozilla.org/en-US/docs/Glossary/Intrinsic_Size)
+- [WebP - An image format for the Web](https://developers.google.com/speed/webp)
+- [srcset attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#srcset)
