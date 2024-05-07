@@ -1960,3 +1960,7 @@ const Home = () => {
 ```
 
 </details>
+
+### Referências
+
+- [The Markdown Guide](https://www.markdownguide.org/)
