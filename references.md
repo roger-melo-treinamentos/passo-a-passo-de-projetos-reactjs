@@ -1928,7 +1928,7 @@ export default RootLayout
 
 ---
 
-8. 🚧 Título em construção
+## 9. Leitura de arquivos e Renderização de markdown
 
 <details>
 <br />
@@ -1965,3 +1965,12 @@ const Home = () => {
 
 - [Screenshot do Desafio Markdown Renderizado](assets/lessons/bonus-next-js/09/analise-sonic-frontiers.jpg)
 - [The Markdown Guide](https://www.markdownguide.org/)
+- [No async client component](https://nextjs.org/docs/messages/no-async-client-component)
+- [React Server Component RFC on promise support](https://github.com/acdlite/rfcs/blob/first-class-promises/text/0000-first-class-support-for-promises.md)
+- [Async components with Server Components](https://react.dev/reference/rsc/server-components#async-components-with-server-components)
+- [How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route)
+- [Runtimes](https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes)
+- [Reading files with Node.js](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs)
+- [fsPromises.readFile()](https://nodejs.org/docs/latest/api/fs.html#fspromisesreadfilepath-options)
+- [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify)
+- [jsdom](https://github.com/jsdom/jsdom)
