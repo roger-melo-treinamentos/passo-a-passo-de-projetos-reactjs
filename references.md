@@ -1963,4 +1963,5 @@ const Home = () => {
 
 ### Referências
 
+- [Screenshot do Desafio Markdown Renderizado](assets/lessons/bonus-next-js/09/analise-sonic-frontiers.jpg)
 - [The Markdown Guide](https://www.markdownguide.org/)
