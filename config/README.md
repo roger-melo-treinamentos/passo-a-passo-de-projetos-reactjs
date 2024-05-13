@@ -3,6 +3,7 @@
 ## Terminal
 
 - [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Windows Terminal](windows-terminal-config)
 
 ## VSCode
 
