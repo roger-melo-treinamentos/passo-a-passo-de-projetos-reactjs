@@ -1974,3 +1974,12 @@ const Home = () => {
 - [fsPromises.readFile()](https://nodejs.org/docs/latest/api/fs.html#fspromisesreadfilepath-options)
 - [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify)
 - [jsdom](https://github.com/jsdom/jsdom)
+
+---
+
+## 10. Resolução Bateria 33: Dynamic Routes, Slugs, Frontmatter, gray-matter e @tailwindcss/typography
+
+- [tailwindcss-typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- [gray-matter](https://github.com/jonschlinkert/gray-matter)
+- [`<time>`: The (Date) Time element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time)
+- [Dynamic Routes](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes)
