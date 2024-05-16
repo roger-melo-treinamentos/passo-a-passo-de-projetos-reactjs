@@ -1971,7 +1971,8 @@ const Home = () => {
 - [How to Load Data from a File in Next.js](https://vercel.com/guides/loading-static-file-nextjs-api-route)
 - [Runtimes](https://nextjs.org/docs/app/building-your-application/rendering/edge-and-nodejs-runtimes)
 - [Reading files with Node.js](https://nodejs.org/en/learn/manipulating-files/reading-files-with-nodejs)
-- [fsPromises.readFile()](https://nodejs.org/docs/latest/api/fs.html#fspromisesreadfilepath-options)
+- [fsPromises.readFile(path[, options])](https://nodejs.org/docs/latest/api/fs.html#fspromisesreadfilepath-options)
+  - 👆🏻 atenção: ao abrir o link acima, pode acontecer uma rolagem para um outro lugar da página. Neste caso, use `Ctrl + F` e pesquise pelo texto do link (neste caso, `fsPromises.readFile(path[, options])`).
 - [isomorphic-dompurify](https://github.com/kkomelin/isomorphic-dompurify)
 - [jsdom](https://github.com/jsdom/jsdom)
 
@@ -2001,3 +2002,8 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 ```
 
 </details>
+
+### Referências
+
+- [fsPromises.readdir(path[, options])](https://nodejs.org/docs/latest/api/fs.html#fspromisesreaddirpath-options)
+  - 👆🏻 atenção: ao abrir o link acima, pode acontecer uma rolagem para um outro lugar da página. Neste caso, use `Ctrl + F` e pesquise pelo texto do link (neste caso, `fsPromises.readdir(path[, options])`).
