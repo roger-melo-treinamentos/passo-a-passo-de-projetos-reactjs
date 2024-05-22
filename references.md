@@ -2024,6 +2024,6 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 ### Referências
 
-1. [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
-2. [Basic Fields](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields)
-3. [Metadata Files API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
+- [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
+- [Basic Fields](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields)
+- [Metadata Files API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
