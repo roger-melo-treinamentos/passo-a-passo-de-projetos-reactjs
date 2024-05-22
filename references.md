@@ -2022,6 +2022,19 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 - [Favicon](assets/lessons/bonus-next-js/13/icon.png)
 
+<details>
+<br />
+<summary>JSX time e button</summary>
+
+```jsx
+<div className="flex gap-4 items-baseline">
+  <time dateTime={date}>{`${day}/${month}/${year}`}</time>
+  <button className="border px-3 py-1 rounded text-slate-200 text-sm">Compartilhar</button>
+</div>
+```
+
+</details>
+
 ### Referências
 
 - [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
