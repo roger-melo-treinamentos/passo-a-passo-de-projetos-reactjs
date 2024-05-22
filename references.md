@@ -2015,3 +2015,15 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 - [Server Rendering Strategies](https://nextjs.org/docs/app/building-your-application/rendering/server-components#server-rendering-strategies)
 - [Server Components](https://nextjs.org/docs/app/building-your-application/rendering/server-components)
 - [Generating Static Params](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes#generating-static-params)
+
+---
+
+## 13. Resolução Bateria 34 - Pt 02 (Refactoring obtenção de slugs, Ordenação de análises) e Metadata em segmentos estáticos e dinâmicos
+
+- [Favicon](assets/lessons/bonus-next-js/13/icon.png)
+
+### Referências
+
+1. [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
+2. [Basic Fields](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields)
+3. [Metadata Files API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
