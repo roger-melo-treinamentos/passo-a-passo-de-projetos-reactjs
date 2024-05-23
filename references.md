@@ -2022,6 +2022,16 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 - [Favicon](assets/lessons/bonus-next-js/13/icon.png)
 
+### Referências
+
+- [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
+- [Basic Fields](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields)
+- [Metadata Files API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
+
+---
+
+## 14. 🚧 Título em andamento
+
 <details>
 <br />
 <summary>JSX time e button</summary>
@@ -2034,9 +2044,3 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 ```
 
 </details>
-
-### Referências
-
-- [Metadata](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)
-- [Basic Fields](https://nextjs.org/docs/app/api-reference/functions/generate-metadata#basic-fields)
-- [Metadata Files API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/metadata)
