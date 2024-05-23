@@ -1,126 +1,118 @@
 {
-	"Creates an html tag inside template string": {
+  "Creates an html tag inside template string": {
     "prefix": "tst",
     "body": [
       "`<${1:tagname}>$2</${1:tagname}>`"
     ],
     "description": "Creates an html tag inside template string"
   },
-  
   "const": {
-		"prefix": "c",
-		"body": [
-			"const ${constName} = ${constValue}"
-		],
-		"description": "Create a const declaration"
-	},
-
-	"let": {
-		"prefix": "l",
-		"body": [
-			"let ${letName} = ${letValue}"
-		],
-		"description": "Create a let declaration"
-	},
-
-	"Print to console": {
-		"prefix": "log",
-		"body": [
-			"console.log(${value})"
-		],
-		"description": "Log output to console"
-	},
-
-	"Print description value to console": {
-		"prefix": "logs",
-		"body": [
-			"console.log('${value}:', ${value})"
-		],
-		"description": "Log output with string to console"
-	},
-
-	"ES5 Function": {
-		"prefix": "f",
-		"body": [
-			"function ${functionName} (${params}) {",
-				"\t${functionBody}",
-			"}"
-		],
-		"description": "Create an ES5 function declaration"
-	},
-
-	"Anonimous Arrow Function": {
-		"prefix": "af",
-		"body": [
-			"${params} => ${functionBody}"
-		],
-		"description": "Create an Anonimous Arrow Function declaration"
-	},
-	
-	"Named Arrow Function (assigned to a const)": {
-		"prefix": "naf",
-		"body": [
-			"const ${constName} = ${param} => ${functionBody}"
-		],
-		"description": "Create an Named Arrow Function"
-	},
-	
-	"Template String": {
-		"prefix": "ts",
-		"body": [
-			"`${templateStringText}`"
-		],
-		"description": "Create a Template String"
-	},
-	
-	"JS block comment": {
-		"prefix": "bc",
-		"body": [
-			"/* ${comment} */"
-		],
-		"description": "Create a JavaScript block comment"
-	},
-	
-	"Show a template string in console": {
-		"prefix": "logts",
-		"body": [
-			"console.log(`${string}`)"
-		],
-		"description": "Create a template string within a console.log() method"
-	},
-	
-	"Const + template string": {
-		"prefix": "cts",
-		"body": [
-			"const ${constName} = `${string}`"
-		],
-		"description": "Assign a template string to a const"
-	},
-	
-	"Return a template string": {
-		"prefix": "rts",
-		"body": [
-			"return `${string}`"
-		],
-		"description": "Create a return statement wich returns a template string"
-	},
-
-	"HTML Inline Code": {
-		"prefix": "hic",
-		"body": [
-			"<${code}>$1</${code}>"
-		],
-		"description": "Declares a HTML Inline Code"
-	},
-	
-	"Return Statement": {
-		"prefix": "r",
-		"body": [
-			"return ${value}"
-		],
-		"description": "Create a return statement"
+    "prefix": "c",
+    "body": [
+      "const ${constName} = ${constValue}"
+    ],
+    "description": "Create a const declaration"
   },
-
+  "useState": {
+    "prefix": "us",
+    "body": [
+      "const [${state}, ${setState}] = useState(${initialState})"
+    ],
+    "description": "Create a useState"
+  },
+  "let": {
+    "prefix": "l",
+    "body": [
+      "let ${letName} = ${letValue}"
+    ],
+    "description": "Create a let declaration"
+  },
+  "Print to console": {
+    "prefix": "log",
+    "body": [
+      "console.log(${value})"
+    ],
+    "description": "Log output to console"
+  },
+  "Print description value to console": {
+    "prefix": "logs",
+    "body": [
+      "console.log('${value}:', ${value})"
+    ],
+    "description": "Log output with string to console"
+  },
+  "ES5 Function": {
+    "prefix": "f",
+    "body": [
+      "function ${functionName} (${params}) {",
+      "\t${functionBody}",
+      "}"
+    ],
+    "description": "Create an ES5 function declaration"
+  },
+  "Anonimous Arrow Function": {
+    "prefix": "af",
+    "body": [
+      "${params} => ${functionBody}"
+    ],
+    "description": "Create an Anonimous Arrow Function declaration"
+  },
+  "Named Arrow Function (assigned to a const)": {
+    "prefix": "naf",
+    "body": [
+      "const ${constName} = ${param} => ${functionBody}"
+    ],
+    "description": "Create an Named Arrow Function"
+  },
+  "Template String": {
+    "prefix": "ts",
+    "body": [
+      "`${templateStringText}`"
+    ],
+    "description": "Create a Template String"
+  },
+  "JS block comment": {
+    "prefix": "bc",
+    "body": [
+      "/* ${comment} */"
+    ],
+    "description": "Create a JavaScript block comment"
+  },
+  "Show a template string in console": {
+    "prefix": "logts",
+    "body": [
+      "console.log(`${string}`)"
+    ],
+    "description": "Create a template string within a console.log() method"
+  },
+  "Const + template string": {
+    "prefix": "cts",
+    "body": [
+      "const ${constName} = `${string}`"
+    ],
+    "description": "Assign a template string to a const"
+  },
+  "Return a template string": {
+    "prefix": "rts",
+    "body": [
+      "return `${string}`"
+    ],
+    "description": "Create a return statement wich returns a template string"
+  },
+  "HTML Inline Code": {
+    "prefix": "hic",
+    "body": [
+      "<${code}>$1</${code}>"
+    ],
+    "description": "Declares a HTML Inline Code"
+  },
+  "Return Statement": {
+    "prefix": "r",
+    "body": [
+      "return ${value}"
+    ],
+    "description": "Create a return statement"
+  },
   "Create a JS Module to be exported": {
     "prefix": "jsm",
     "body": [
@@ -134,7 +126,6 @@
     ],
     "description": "Create a JS Module to be exported"
   },
-
   "create an export default declaration": {
     "prefix": "ed",
     "body": [
@@ -142,7 +133,6 @@
     ],
     "description": "create an export default declaration"
   },
-
   "Assigns & invoke a document.querySelector() method": {
     "prefix": "dqs",
     "body": [
@@ -150,7 +140,6 @@
     ],
     "description": "invoke a document.querySelector() method"
   },
-
   "Assigns & invoke a document.querySelectorAll() method": {
     "prefix": "dqsa",
     "body": [
@@ -158,7 +147,6 @@
     ],
     "description": "invoke a document.querySelectorAll() method"
   },
-
   "create an es6 module import ": {
     "prefix": "im",
     "body": [
