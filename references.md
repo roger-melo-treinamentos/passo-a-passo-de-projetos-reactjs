@@ -2030,7 +2030,7 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 ---
 
-## 14. 🚧 Título em andamento
+## 14. Client components aninhados, hydration, escrita no clipboard e lib de ícones
 
 <details>
 <br />
@@ -2044,3 +2044,14 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 ```
 
 </details>
+
+### Referências
+
+- ["What is hydration?"](https://nextjs.org/docs/app/building-your-application/rendering/client-components#full-page-load)
+- [Prerendering & Hydration tweet](https://x.com/leeerob/status/1506287021823823876)
+- [Clipboard: writeText() method](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText)
+- [Location: href property](https://developer.mozilla.org/en-US/docs/Web/API/Location/href)
+- [Slide da árvore de componentes](assets/lessons/bonus-next-js/14/tree-slide.jpg)
+- [Terminology](https://nextjs.org/docs/app/building-your-application/routing#terminology)
+- [Heroicons](https://heroicons.com/)
+- [Lucide](https://lucide.dev/)
