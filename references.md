@@ -2055,3 +2055,16 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 - [Terminology](https://nextjs.org/docs/app/building-your-application/routing#terminology)
 - [Heroicons](https://heroicons.com/)
 - [Lucide](https://lucide.dev/)
+
+---
+
+## 15. Resolução bateria 35 (Deploy na Vercel), Segunda fase do projeto game-reviews, JAMStack e Introdução a Headless CMS
+
+- [Static Exports](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
+- [Deploying](https://nextjs.org/docs/app/building-your-application/deploying)
+- [Self-Hosting (servidor próprio)](https://nextjs.org/docs/app/building-your-application/deploying#self-hosting)
+  - [Static Export: How To Install Nginx on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04)
+  - [Full-stack features: How To Set Up a Node.js Application for Production on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-20-04)
+- [Working with domains](https://vercel.com/docs/projects/domains/working-with-domains)
+- [Registro BR](https://registro.br/ajuda/)
+- [Headless CMS](https://jamstack.org/headless-cms/)
