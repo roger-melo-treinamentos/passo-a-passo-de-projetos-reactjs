@@ -2073,4 +2073,4 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 ## 16. Apresentação do CMS (Strapi) e projeto pré-configurado
 
-- [Projeto pré-configurado](assets/lessons/bonus-next-js/16/)
+- [Projeto pré-configurado](assets/lessons/bonus-next-js/16/cms-game-reviews.zip)
