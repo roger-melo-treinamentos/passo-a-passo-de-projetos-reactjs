@@ -2068,3 +2068,9 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 - [Working with domains](https://vercel.com/docs/projects/domains/working-with-domains)
 - [Registro BR](https://registro.br/ajuda/)
 - [Headless CMS](https://jamstack.org/headless-cms/)
+
+---
+
+## 16. Apresentação do CMS (Strapi) e projeto pré-configurado
+
+- [Projeto pré-configurado](assets/lessons/bonus-next-js/16/cms-game-reviews.zip)
