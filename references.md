@@ -2080,3 +2080,9 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 ## 18. Resolução Bateria 36 (migração de Markdown para CMS): atualização das funções getReviews, getReview e getReviewSlugs
 
 - [remotePatterns](https://nextjs.org/docs/app/api-reference/components/image#remotepatterns)
+
+---
+
+## 19. 🚧 Título em construção
+
+- [Image Optimization Diagram](assets/lessons/bonus-next-js/19/image-optimization-diagram.jpg)
