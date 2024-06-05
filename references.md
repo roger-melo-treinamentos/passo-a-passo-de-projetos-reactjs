@@ -2083,6 +2083,7 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 ---
 
-## 19. 🚧 Título em construção
+## 19. Mais detalhes sobre o componente Image: Next server como proxy, cache, priority e lazy loading de imagens
 
 - [Image Optimization Diagram](assets/lessons/bonus-next-js/19/image-optimization-diagram.jpg)
+- [Homepage pós-desafio](assets/lessons/bonus-next-js/19/homepage-desafio-aula-19.jpg)
