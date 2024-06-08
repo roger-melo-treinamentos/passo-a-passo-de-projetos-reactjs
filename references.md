@@ -2087,3 +2087,14 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 - [Image Optimization Diagram](assets/lessons/bonus-next-js/19/image-optimization-diagram.jpg)
 - [Homepage Screenshot](assets/lessons/bonus-next-js/19/homepage-desafio-aula-19.jpg)
+
+---
+
+## 20. Renderização dinâmica de análises, cache de fetch requests, revalidate, dynamic e dynamicParams
+
+- [logging](https://nextjs.org/docs/app/api-reference/next-config-js/logging)
+- [dynamicParams](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config#dynamicparams)
+- [Features that require a Node.js server](https://nextjs.org/docs/app/building-your-application/deploying/static-exports#unsupported-features)
+- [Caching Data](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#caching-data)
+- [dynamic](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config#dynamic)
+- [Opting out of Data Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#opting-out-of-data-caching)
