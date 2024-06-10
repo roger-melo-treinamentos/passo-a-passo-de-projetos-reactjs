@@ -2098,3 +2098,45 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 - [Caching Data](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#caching-data)
 - [dynamic](https://nextjs.org/docs/app/api-reference/file-conventions/route-segment-config#dynamic)
 - [Opting out of Data Caching](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#opting-out-of-data-caching)
+
+---
+
+## 21. 🚧 Título em andamento
+
+<details>
+<br />
+<summary>generateStaticParams</summary>
+
+```js
+const generateStaticParams = async () => {
+  const slugs = await getReviewSlugs()
+  return slugs.map(slug => ({ slug }))
+}
+```
+
+</details>
+
+<details>
+<br />
+<summary>getReviewSlugs</summary>
+
+```js
+import { stringify } from 'qs'
+
+const query = '?' + stringify({
+  fields: ['slug'],
+  sort: ['publishedAt:desc'],
+  pagination: { pageSize: 100 }
+}, { encodeValuesOnly: true })
+
+const cmsBaseUrl = 'http://localhost:1337'
+
+const getReviewSlugs = async () => fetch(`${cmsBaseUrl}/api/reviews${query}`)
+  .then(res => res.json())
+  .then(({ data }) => data.map(({ attributes }) => attributes.slug))
+  .catch(console.log)
+
+export { getReviewSlugs }
+```
+
+</details>
