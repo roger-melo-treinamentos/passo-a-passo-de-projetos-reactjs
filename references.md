@@ -2140,3 +2140,8 @@ export { getReviewSlugs }
 ```
 
 </details>
+
+### Referências
+
+- [Data Fetching, Caching, and Revalidating](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating)
+- [Caching in Next.js](https://nextjs.org/docs/app/building-your-application/caching)
