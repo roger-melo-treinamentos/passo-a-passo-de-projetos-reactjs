@@ -2101,7 +2101,7 @@ Foi anunciado pela Sony a 9 de junho de 2014 durante a Electronic Entertainment 
 
 ---
 
-## 21. 🚧 Título em andamento
+## 22. Time-based revalidation, revalidação a nível de fetch e de página
 
 <details>
 <br />
