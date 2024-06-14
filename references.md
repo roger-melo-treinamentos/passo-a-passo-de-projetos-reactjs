@@ -2145,3 +2145,17 @@ export { getReviewSlugs }
 
 - [Data Fetching, Caching, and Revalidating](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating)
 - [Caching in Next.js](https://nextjs.org/docs/app/building-your-application/caching)
+
+---
+
+## 23. Route handlers, Webhooks, On-demand revalidation e revalidateTag
+
+- [On-demand Revalidation](https://nextjs.org/docs/app/building-your-application/data-fetching/fetching-caching-and-revalidating#on-demand-revalidation)
+- [revalidateTag](https://nextjs.org/docs/app/api-reference/functions/revalidateTag)
+- [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+- [route.js](https://nextjs.org/docs/app/api-reference/file-conventions/route)
+- [NextResponse](https://nextjs.org/docs/app/api-reference/functions/next-response)
+- [Response](https://developer.mozilla.org/en-US/docs/Web/API/Response)
+- [NextRequest](https://nextjs.org/docs/app/api-reference/functions/next-request)
+- [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)
+- [204 No Content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204)
