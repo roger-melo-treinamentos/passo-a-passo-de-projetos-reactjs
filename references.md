@@ -2159,3 +2159,9 @@ export { getReviewSlugs }
 - [NextRequest](https://nextjs.org/docs/app/api-reference/functions/next-request)
 - [Request](https://developer.mozilla.org/en-US/docs/Web/API/Request)
 - [204 No Content](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/204)
+
+---
+
+## 25. Comparação de estratégias de renderização
+
+- [Slides](assets/lessons/bonus-next-js/25/slides/)
