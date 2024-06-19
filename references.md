@@ -2165,3 +2165,4 @@ export { getReviewSlugs }
 ## 25. Comparação de estratégias de renderização
 
 - [Slides](assets/lessons/bonus-next-js/25/slides/)
+- [Screenshot - exibição total de páginas](assets/lessons/bonus-next-js/25/exibicao-total-paginas.png)
