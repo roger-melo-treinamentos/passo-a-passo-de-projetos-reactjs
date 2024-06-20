@@ -2166,3 +2166,9 @@ export { getReviewSlugs }
 
 - [Slides](assets/lessons/bonus-next-js/25/slides/)
 - [Screenshot - exibição total de páginas](assets/lessons/bonus-next-js/25/exibicao-total-paginas.png)
+
+---
+
+## 26. 🚧 Título em andamento
+
+- [Screenshots - setas desabilitadas](assets/lessons/bonus-next-js/26/)
