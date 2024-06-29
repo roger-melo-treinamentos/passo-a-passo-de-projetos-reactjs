@@ -2169,6 +2169,14 @@ export { getReviewSlugs }
 
 ---
 
-## 26. 🚧 Título em andamento
+## 26. Desabilitação de links da paginação
 
 - [Screenshots - setas desabilitadas](assets/lessons/bonus-next-js/26/)
+
+---
+
+## 29. Pesquisa e filtragem de análises via request e Route handler para a pesquisa de análises
+
+- [Security](https://vercel.com/docs/security/overview#security)
+- [DDoS Mitigation](https://vercel.com/docs/security/ddos-mitigation#ddos-mitigation)
+- [Production Checklist](https://vercel.com/docs/production-checklist)
