@@ -2186,3 +2186,11 @@ export { getReviewSlugs }
 ## 30. Resolução Bateria 40: server-only e cancelamento de requests com AbortController
 
 - [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController)
+
+---
+
+## 32. 🚧 Título em construção
+
+- [Project deployment with the Cloud dashboard](https://docs.strapi.io/cloud/getting-started/deployment)
+- [Backend Deployment To Strapi Cloud](https://strapi.io/blog/epic-next-js-14-tutorial-part-9-backend-deployment-to-strapi-cloud)
+- [Data transfer](https://docs.strapi.io/dev-docs/data-management/transfer)
