@@ -2189,8 +2189,14 @@ export { getReviewSlugs }
 
 ---
 
-## 32. 🚧 Título em construção
+## 32. Deploy de um projeto Strapi para produção, Strapi Cloud e Refactoring (dev x prod)
 
 - [Project deployment with the Cloud dashboard](https://docs.strapi.io/cloud/getting-started/deployment)
 - [Backend Deployment To Strapi Cloud](https://strapi.io/blog/epic-next-js-14-tutorial-part-9-backend-deployment-to-strapi-cloud)
 - [Data transfer](https://docs.strapi.io/dev-docs/data-management/transfer)
+
+---
+
+## 34. 🚧 Título em construção
+
+- [ORM](assets/lessons/bonus-next-js/34/01-orm.jpg)
