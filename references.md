@@ -2199,4 +2199,4 @@ export { getReviewSlugs }
 
 ## 34. 🚧 Título em construção
 
-- [ORM](assets/lessons/bonus-next-js/34/01-orm.jpg)
+- [Slides](assets/lessons/bonus-next-js/34/)
