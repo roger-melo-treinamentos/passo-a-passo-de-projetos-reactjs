@@ -2197,6 +2197,7 @@ export { getReviewSlugs }
 
 ---
 
-## 34. 🚧 Título em construção
+## 34. Resolução Bateria 41 - Parte 2, O que é um ORM, Instalação do Prisma, Definição de models e Prisma Studio
 
 - [Slides](assets/lessons/bonus-next-js/34/)
+- [Prisma Schema Overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
