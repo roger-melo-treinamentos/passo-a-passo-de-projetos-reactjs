@@ -2179,7 +2179,8 @@ export { getReviewSlugs }
 
 - [Security](https://vercel.com/docs/security/overview#security)
 - [DDoS Mitigation](https://vercel.com/docs/security/ddos-mitigation#ddos-mitigation)
-- [Production Checklist](https://vercel.com/docs/production-checklist)
+- [Production Checklist - Vercel](https://vercel.com/docs/production-checklist)
+- [Production Checklist - Next](https://nextjs.org/docs/app/building-your-application/deploying/production-checklist)
 
 ---
 
