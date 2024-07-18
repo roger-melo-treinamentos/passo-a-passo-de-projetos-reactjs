@@ -2202,3 +2202,22 @@ export { getReviewSlugs }
 
 - [Slides](assets/lessons/bonus-next-js/34/slides-aula-34-orm.zip)
 - [Prisma Schema Overview](https://www.prisma.io/docs/orm/prisma-schema/overview)
+
+---
+
+## 37. 🚧 Título em construção
+
+<details>
+<br />
+<summary>Validations</summary>
+
+```js
+const validations = [
+  { condition: !data.user, message: 'Preencha o campo com seu nome' },
+  { condition: data.user && data.user.length > 50, message: 'Deixe o nome com no máximo 50 caracteres' },
+  { condition: !data.message, message: 'Preencha o campo com seu comentário' },
+  { condition: data.message && data.message.length > 500, message: 'Deixe o comentário com no máximo 500 caracteres' },
+]
+```
+
+</details>
