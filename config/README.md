@@ -8,7 +8,10 @@
 ## VSCode
 
 - [Snippets](snippets)
-- [Tema de cores](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)
+- Temas de cores
+  - One Dark (Sublime Babel) - Primeiro tema de cores que usei. Foi descontinuado.
+  - Dark+ (default dark) - Um tema padrão do VSCode que parei de usar por que encontrei o tema abaixo. 
+  - [Catppuccin](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc) - Tema que uso atualmente. 
 
 ## Extensões
 
